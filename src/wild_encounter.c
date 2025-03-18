@@ -386,6 +386,8 @@ u16 GetCurrentMapWildMonHeaderId(void)
 
                 i += alteringCaveId;
             }
+            
+            i += FlagGet(FLAG_TEMP_USE_ALT_ENCOUNTER_TABLE);
 
             return i;
         }
