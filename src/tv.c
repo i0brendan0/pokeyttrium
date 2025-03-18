@@ -1633,8 +1633,9 @@ static void TryStartRandomMassOutbreak(void)
     {
         for (i = 0; i < LAST_TVSHOW_IDX; i++)
         {
-            if (gSaveBlock1Ptr->tvShows[i].common.kind == TVSHOW_MASS_OUTBREAK)
-                return;
+            if (gSaveBlock1Ptr->tvShows[i].common.kind == TVSHOW_MASS_OUTBREAK) // x_MODIFY_x
+                if (gSaveBlock1Ptr->outbreakPokemonSpecies != SPECIES_NONE)
+                    return;
         }
         if (!rbernoulli(1, 200))
         {
