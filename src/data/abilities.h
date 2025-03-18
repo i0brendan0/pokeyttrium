@@ -2408,6 +2408,14 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+
+    [ABILITY_CACOPHONY] =
+    {
+        .name = _("Cacophony"),
+        .description = COMPOUND_STRING("Makes sounds stronger."),
+        .aiRating = 5,
+    },
+    
     [ABILITY_STANDARD] =
     {
         .name = _("Standard"),
