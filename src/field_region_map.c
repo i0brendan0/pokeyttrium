@@ -45,7 +45,7 @@ static EWRAM_DATA struct {
     u16 state;
 } *sFieldRegionMapHandler = NULL;
 
-static void MCB2_InitRegionMapRegisters(void);
+void MCB2_InitRegionMapRegisters(void);
 static void VBCB_FieldUpdateRegionMap(void);
 static void MCB2_FieldUpdateRegionMap(void);
 static void FieldUpdateRegionMap(void);
@@ -61,12 +61,21 @@ static const struct BgTemplate sFieldRegionMapBgTemplates[] = {
         .paletteMode = 0,
         .priority = 0,
         .baseTile = 0
-    }, {
-        .bg = 2,
+    },
+    {
+        .bg = 1,
+        .charBaseIndex = 1,
+        .mapBaseIndex = 30,
+        .screenSize = 0,
+        .paletteMode = 0,
+        .priority = 0,
+        .baseTile = 0
+    },
+    {        .bg = 2,
         .charBaseIndex = 2,
         .mapBaseIndex = 28,
-        .screenSize = 2,
-        .paletteMode = 1,
+        .screenSize = 0,
+        .paletteMode = 0,
         .priority = 2,
         .baseTile = 0
     }
@@ -104,7 +113,7 @@ void FieldInitRegionMap(MainCallback callback)
     SetMainCallback2(MCB2_InitRegionMapRegisters);
 }
 
-static void MCB2_InitRegionMapRegisters(void)
+void MCB2_InitRegionMapRegisters(void)
 {
     SetGpuReg(REG_OFFSET_DISPCNT, 0);
     SetGpuReg(REG_OFFSET_BG0HOFS, 0);
@@ -118,7 +127,7 @@ static void MCB2_InitRegionMapRegisters(void)
     ResetSpriteData();
     FreeAllSpritePalettes();
     ResetBgsAndClearDma3BusyFlags(0);
-    InitBgsFromTemplates(1, sFieldRegionMapBgTemplates, ARRAY_COUNT(sFieldRegionMapBgTemplates));
+    InitBgsFromTemplates(0, sFieldRegionMapBgTemplates, ARRAY_COUNT(sFieldRegionMapBgTemplates));
     InitWindows(sFieldRegionMapWindowTemplates);
     DeactivateAllTextPrinters();
     LoadUserWindowBorderGfx(0, 0x27, BG_PLTT_ID(13));
