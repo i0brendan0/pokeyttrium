@@ -2510,3 +2510,11 @@
 	compare \a, \b
 	cant_see_if 5
 	.endm
+
+	@ Chance to give item.
+	.macro rematchreward item:req, percent:req, amount=1
+		setorcopyvar VAR_0x8008, \item
+        setorcopyvar VAR_0x8009, \percent
+        setorcopyvar VAR_0x800A, \amount
+        call EventScript_TrainerRematchGiveItem
+	.endm
