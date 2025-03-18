@@ -101,6 +101,18 @@ static const struct {
     { SPECIES_SUDOWOODO,    ITEM_ROCK_INCENSE, SPECIES_BONSLY },
     { SPECIES_ROSELIA,      ITEM_ROSE_INCENSE, SPECIES_BUDEW },
     { SPECIES_MANTINE,      ITEM_WAVE_INCENSE, SPECIES_MANTYKE },
+/*
+    { SPECIES_DODUO,     ITEM_LAX_INCENSE,   SPECIES_CHIKS    },
+    { SPECIES_GOLDEEN,   ITEM_SEA_INCENSE,   SPECIES_GOLPY    },
+    { SPECIES_GRIMER,    ITEM_GRIME_INCENSE, SPECIES_GRIMEY   },
+    { SPECIES_MEOWTH,    ITEM_LUCK_INCENSE,  SPECIES_MEOWSY   },
+    { SPECIES_PONYTA,    ITEM_FLAME_INCENSE, SPECIES_MINICORN },
+    { SPECIES_PARAS,     ITEM_ROSE_INCENSE,  SPECIES_PARA     },
+    { SPECIES_GROWLITHE, ITEM_FLAME_INCENSE, SPECIES_PUDDI    },
+    { SPECIES_TANGELA,   ITEM_ROSE_INCENSE,  SPECIES_TANGEL   },
+    { SPECIES_VULPIX,    ITEM_FLAME_INCENSE, SPECIES_TRIFOX   },
+    { SPECIES_DUNSPARCE, ITEM_FULL_INCENSE,  SPECIES_x_DUNSPARCE_x },
+    */
 };
 
 static const u8 *const sCompatibilityMessages[] =
@@ -489,6 +501,14 @@ static u16 GetEggSpecies(u16 species)
 {
     int i, j, k;
     bool8 found;
+
+    if ((species == SPECIES_KURSTRAW) || (species == SPECIES_PANGSHI))
+    {
+        if (Random() & 1)
+            return SPECIES_KURSTRAW;
+        else
+            return SPECIES_PANGSHI;
+    };
 
     // Working backwards up to 5 times seems arbitrary, since the maximum number
     // of times would only be 3 for 3-stage evolutions.
