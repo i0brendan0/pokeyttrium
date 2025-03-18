@@ -9681,6 +9681,50 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageCalculationData *
     return uq4_12_multiply_by_int_half_down(modifier, basePower);
 }
 
+static const u16 sLowHPAbilities[NUMBER_OF_MON_TYPES] =
+{
+    [TYPE_NORMAL] = ABILITY_STANDARD,
+    [TYPE_FIGHTING] = ABILITY_WRESTLE,
+    [TYPE_FLYING] = ABILITY_AIRBORNE,
+    [TYPE_POISON] = ABILITY_VENOMOUS,
+    [TYPE_GROUND] = ABILITY_FOUNDATION,
+    [TYPE_ROCK] = ABILITY_RUBBLE,
+    [TYPE_BUG] = ABILITY_SWARM,
+    [TYPE_GHOST] = ABILITY_PHANTASM,
+    [TYPE_STEEL] = ABILITY_FORTIFY,
+    [TYPE_FIRE] = ABILITY_BLAZE,
+    [TYPE_WATER] = ABILITY_TORRENT,
+    [TYPE_GRASS] = ABILITY_OVERGROW,
+    [TYPE_ELECTRIC] = ABILITY_OVERCHARGE,
+    [TYPE_PSYCHIC] = ABILITY_MYSTIC,
+    [TYPE_ICE] = ABILITY_CHILL,
+    [TYPE_DRAGON] = ABILITY_HYDRA,
+    [TYPE_DARK] = ABILITY_DREAD,
+    [TYPE_FAIRY] = ABILITY_PIXIE,
+};
+
+static const u16 sTypeToTrainer[NUMBER_OF_MON_TYPES] =
+{
+    [TYPE_NORMAL] = FLAG_NORMAL_TRAINER_DEFEATED,
+    [TYPE_FIGHTING] = FLAG_FIGHTING_TRAINER_DEFEATED,
+    [TYPE_FLYING] = FLAG_FLYING_TRAINER_DEFEATED,
+    [TYPE_POISON] = FLAG_POISON_TRAINER_DEFEATED,
+    [TYPE_GROUND] = FLAG_GROUND_TRAINER_DEFEATED,
+    [TYPE_ROCK] = FLAG_ROCK_TRAINER_DEFEATED,
+    [TYPE_BUG] = FLAG_BUG_TRAINER_DEFEATED,
+    [TYPE_GHOST] = FLAG_GHOST_TRAINER_DEFEATED,
+    [TYPE_STEEL] = FLAG_STEEL_TRAINER_DEFEATED,
+    [TYPE_FIRE] = FLAG_FIRE_TRAINER_DEFEATED,
+    [TYPE_WATER] = FLAG_WATER_TRAINER_DEFEATED,
+    [TYPE_GRASS] = FLAG_GRASS_TRAINER_DEFEATED,
+    [TYPE_ELECTRIC] = FLAG_ELECTRIC_TRAINER_DEFEATED,
+    [TYPE_PSYCHIC] = FLAG_PSYCHIC_TRAINER_DEFEATED,
+    [TYPE_ICE] = FLAG_ICE_TRAINER_DEFEATED,
+    [TYPE_DRAGON] = FLAG_DRAGON_TRAINER_DEFEATED,
+    [TYPE_DARK] = FLAG_DARK_TRAINER_DEFEATED,
+    [TYPE_FAIRY] = FLAG_FAIRY_TRAINER_DEFEATED,
+};
+
 static inline u32 CalcAttackStat(struct DamageCalculationData *damageCalcData, u32 atkAbility, u32 defAbility, u32 holdEffectAtk, u32 weather)
 {
     u8 atkStage;
@@ -9777,20 +9821,28 @@ static inline u32 CalcAttackStat(struct DamageCalculationData *damageCalcData, u
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
         break;
     case ABILITY_SWARM:
-        if (moveType == TYPE_BUG && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
-            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
-        break;
     case ABILITY_TORRENT:
-        if (moveType == TYPE_WATER && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
-            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
-        break;
     case ABILITY_BLAZE:
-        if (moveType == TYPE_FIRE && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
-            modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
-        break;
     case ABILITY_OVERGROW:
-        if (moveType == TYPE_GRASS && gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+    case ABILITY_STANDARD:
+    case ABILITY_WRESTLE:
+    case ABILITY_AIRBORNE:
+    case ABILITY_VENOMOUS:
+    case ABILITY_FOUNDATION:
+    case ABILITY_RUBBLE:
+    case ABILITY_PHANTASM:
+    case ABILITY_FORTIFY:
+    case ABILITY_OVERCHARGE:
+    case ABILITY_MYSTIC:
+    case ABILITY_CHILL:
+    case ABILITY_HYDRA:
+    case ABILITY_DREAD:
+    case ABILITY_PIXIE:
+        if ((gBattleMons[battlerAtk].hp <= (gBattleMons[battlerAtk].maxHP / 3))
+            && (GetBattlerAbility(battlerAtk) == sLowHPAbilities[moveType]))
+            {
             modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.5));
+            }
         break;
     case ABILITY_PLUS:
         if (IsBattleMoveSpecial(move) && IsBattlerAlive(BATTLE_PARTNER(battlerAtk)))
@@ -9943,6 +9995,11 @@ static inline u32 CalcAttackStat(struct DamageCalculationData *damageCalcData, u
     if (ShouldGetStatBadgeBoost(FLAG_BADGE07_GET, battlerAtk) && IsBattleMoveSpecial(move))
         modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.1));
 
+    // A boost to moves of each type can be obtained by defeating a trainer of the designated type.
+    // They are littered throughout the Hoenn region and can only be battled after the HoF.
+    if (FlagGet(sTypeToTrainer[moveType]))
+        modifier = uq4_12_multiply_half_down(modifier, UQ_4_12(1.1));
+    
     return uq4_12_multiply_by_int_half_down(modifier, atkStat);
 }
 
