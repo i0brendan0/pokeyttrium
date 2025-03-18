@@ -210,6 +210,9 @@
 #define METATILE_General_CalmWater             0x170
 #define METATILE_General_CaveEntrance_Bottom   0x0A7
 #define METATILE_General_CaveEntrance_Top      0x09F
+#define METATILE_General_DarkGrass             0x05C
+#define METATILE_General_DarkGrass_TreeLeft    0x135
+#define METATILE_General_DarkGrass_TreeRight   0x13F
 #define METATILE_General_Door                  0x021
 #define METATILE_General_Door_Contest          0x1DB
 #define METATILE_General_Door_Gym              0x1CD
