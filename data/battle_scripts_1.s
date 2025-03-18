@@ -2821,6 +2821,7 @@ BattleScript_EffectHit_RetFromCritCalc::
 BattleScript_Hit_RetFromAtkAnimation::
 	attackanimation
 	waitanimation
+BattleScript_SplashHit::
 	effectivenesssound
 	hitanimation BS_TARGET
 	waitstate
@@ -10104,3 +10105,23 @@ BattleScript_SleepClausePreventsEnd::
 	printstring STRINGID_BLOCKEDBYSLEEPCLAUSE
 	waitmessage B_WAIT_TIME_LONG
 	end2
+
+BattleScript_EffectSplash::
+    attackcanceler
+    attackstring
+    ppreduce
+    attackanimation
+    waitanimation
+	jumpifhalfword CMP_COMMON_BITS, gBattleWeather, B_WEATHER_RAIN, BattleScript_RainingSplash
+BattleScript_SplashMisses:
+	incrementgamestat GAME_STAT_USED_SPLASH
+	printstring STRINGID_BUTNOTHINGHAPPENED
+	waitmessage B_WAIT_TIME_LONG
+	goto BattleScript_MoveEnd
+
+BattleScript_RainingSplash:
+	accuracycheck BattleScript_SplashMisses, ACC_CURR_MOVE
+	critcalc
+	damagecalc
+	adjustdamage
+	goto BattleScript_SplashHit
