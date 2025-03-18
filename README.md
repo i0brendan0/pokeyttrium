@@ -1,10 +1,9 @@
-# Pokemon Emerald Hack
-
-THIS HACK IS CURRENTLY BEING UPDATED
+# Pokemon Yttrium
 
 ## What is this hack
 
-This hack is a personal upgrade/modification of the original Pokemon Emerald. It uses the pokeemerald Expansion as its base and introduces new Pokemon as well.
+This hack has a completely new region based off of Scandinavia.
+    (Region map soon)
 
 ## Features
 
@@ -74,13 +73,13 @@ This hack is a personal upgrade/modification of the original Pokemon Emerald. It
         - (Implemented but no trainers available yet.)
     - Trainers may give out items after being beaten in a rematch.
 
-### A new set of TMs - Up to 200
+### A new set of TMs - Up to 200 - Check [here](pokeyttrium/blob/master/info/TM.md) for locations
 
-    For specific TM information and locations, check [info\TM.md].
+    List TBD.
 
-### New Pokemon
+### New Pokemon -  Check [here](info/BETAMON.md)
 
-    - Beta mon from previous generations. Check [info\BETAMON.md]
+    - Beta mon from previous generations.
     - New incense items for use with beta baby mon.
         - Luck Incense - Meowsy
         - Flame Incense - Trifox/Minicorn/Puddi
@@ -116,7 +115,6 @@ This hack is a personal upgrade/modification of the original Pokemon Emerald. It
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
         - Triple layer metatiles https://github.com/pret/pokeemerald/wiki/Triple-layer-metatiles
         - Rival name https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10211189
-        
 
 ## Changes
 
@@ -148,7 +146,7 @@ This hack is a personal upgrade/modification of the original Pokemon Emerald. It
         - Ethers, Elixirs, Specialty Balls, Revives, Full Heals, Bitter Recovery Items (not including Revival Herb) - 2
     - If a Pokemon has their hidden ability, it will be highlighted in the summary screen.
 
-### Type Changes
+### Type Changes -  Check [here](info/TYPE_CHANGES.md) for Pokemon type changes.
 
     - Ice resists Dragon
     - Ice resists Ground
@@ -156,8 +154,6 @@ This hack is a personal upgrade/modification of the original Pokemon Emerald. It
     - Bug is neutral to Fairy
     - Bug resists Psychic
     - Bug is weak to Poison (Gen 1)
-    
-    - Certain Pokemon have type changes. Check [info\TYPE_CHANGES.md]
 
 ### pokeemerald Expansion configuration changes
 
