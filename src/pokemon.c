@@ -4598,6 +4598,15 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                 if (GetTimeOfDay() != TIME_NIGHT && evolutions[i].param == evolutionItem)
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
+            case EVO_TRADE:
+                if (evolutionItem == ITEM_LINK_CABLE)
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
+            case EVO_TRADE_ITEM:
+                if (evolutionItem == ITEM_LINK_CABLE && evolutions[i].param == heldItem)
+                    targetSpecies = evolutions[i].targetSpecies;
+                    consumeItem = TRUE;
+                break;
             }
         }
         break;

@@ -93,7 +93,7 @@
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 16 // Actual probability is SHINY_ODDS/65536
 
 // Ribbon IDs used by TV and Pokénav
 #define CHAMPION_RIBBON       0
@@ -214,7 +214,7 @@
 #define MAX_IV_MASK 31
 #define USE_RANDOM_IVS (MAX_PER_STAT_IVS + 1)
 #define MAX_PER_STAT_EVS ((P_EV_CAP >= GEN_6) ? 252 : 255)
-#define MAX_TOTAL_EVS 510
+#define MAX_TOTAL_EVS (MAX_PER_STAT_EVS * NUM_STATS)
 #define EV_ITEM_RAISE_LIMIT ((I_VITAMIN_EV_CAP >= GEN_8) ? MAX_PER_STAT_EVS : 100)
 
 // Move category defines.
@@ -300,6 +300,7 @@ enum EvolutionMethods {
     EVO_ITEM_COUNT_999,                  // Pokémon levels up after trainer has collected 999 of a specific item
     EVO_DEFEAT_THREE_WITH_ITEM,          // Pokémon levels up after having defeat 3 Pokémon of the same species holding the specified item
     EVO_OVERWORLD_STEPS,                 // Pokémon levels up after having taken a specific amount of steps in the overworld
+    EVO_SPECIFIC_LEVEL,                 // Pokémon levels up only at the specific level
 };
 
 enum EvolutionMode {

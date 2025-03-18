@@ -239,6 +239,8 @@
 #define METATILE_General_RoughDeepWater        0x14F
 #define METATILE_General_RoughWater            0x14E
 #define METATILE_General_SandPit_Center        0x121
+#define METATILE_General_SandPit_LeftEdge      0x120
+#define METATILE_General_SandPit_RightEdge     0x122
 #define METATILE_General_SecretBase_TreeLeft   0x026
 #define METATILE_General_SecretBase_TreeRight  0x027
 #define METATILE_General_SecretBase_VineLeft   0x036
