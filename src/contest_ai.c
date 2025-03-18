@@ -1747,11 +1747,7 @@ static void ContestAICmd_check_user_has_move(void)
 
     for (i = 0; i < MAX_MON_MOVES; i++)
     {
-        #ifdef BUGFIX
         u16 move = GetMoveContestEffect(gContestMons[eContestAI.contestantId].moves[i]);
-        #else
-        u16 move = gContestMons[eContestAI.contestantId].moves[i];
-        #endif
 
         if (move == targetMove)
         {

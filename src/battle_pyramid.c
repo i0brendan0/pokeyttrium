@@ -1986,9 +1986,7 @@ static bool8 SetPyramidObjectPositionsInAndNearSquare(u8 objType, u8 squareId)
 
         r7 &= 1;
     }
-    #ifdef BUGFIX
     Free(floorLayoutOffsets);
-    #endif
 
     return (numObjects / 2) > numPlacedObjects;
 }
@@ -2040,9 +2038,7 @@ static bool8 SetPyramidObjectPositionsNearSquare(u8 objType, u8 squareId)
         if (r8 == 4)
             break;
     }
-    #ifdef BUGFIX
     Free(floorLayoutOffsets);
-    #endif
 
     return (numObjects / 2) > numPlacedObjects;
 }
