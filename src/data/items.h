@@ -138,6 +138,18 @@ static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
 
+static const u8 sRichIncenseDesc[]     = _("A hold item that\n"
+                                           "occasionally allows\n"
+                                           "the first strike.");
+
+static const u8 sFlameIncenseDesc[]     = _("A hold item that\n"
+                                            "raises the power of\n"
+                                            "Fire-type moves.");
+
+static const u8 sGrimeIncenseDesc[]     = _("A hold item that\n"
+                                            "raises the power of\n"
+                                            "Poison-type moves.");
+
 const struct Item gItemsInfo[] =
 {
     [ITEM_NONE] =
@@ -7332,6 +7344,36 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_PureIncense,
     },
 
+    [ITEM_FLAME_INCENSE] =
+    {
+        .name = _("Flame Incense"),
+        .price = (I_PRICE >= GEN_7) ? 6000 : 9600,
+        .holdEffect = HOLD_EFFECT_FIRE_POWER,
+        .holdEffectParam = TYPE_BOOST_PARAM,
+        .description = sFlameIncenseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 10,
+        .iconPic = gItemIcon_PureIncense,
+        .iconPalette = gItemIconPalette_PureIncense,
+    },
+
+    [ITEM_GRIME_INCENSE] =
+    {
+        .name = _("Grime Incense"),
+        .price = (I_PRICE >= GEN_7) ? 6000 : 9600,
+        .holdEffect = HOLD_EFFECT_POISON_POWER,
+        .holdEffectParam = TYPE_BOOST_PARAM,
+        .description = sGrimeIncenseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 10,
+        .iconPic = gItemIcon_PureIncense,
+        .iconPalette = gItemIconPalette_PureIncense,
+    },
+
 // Contest Scarves
 
     [ITEM_RED_SCARF] =
@@ -7580,10 +7622,7 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 9800),
         .holdEffect = HOLD_EFFECT_FIRE_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
-        .description = COMPOUND_STRING(
-            "A hold item that\n"
-            "raises the power of\n"
-            "Fire-type moves."),
+        .description = sFlameIncenseDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -7687,10 +7726,7 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 3000 : ((I_PRICE >= GEN_7) ? 1000 : 100),
         .holdEffect = HOLD_EFFECT_POISON_POWER,
         .holdEffectParam = TYPE_BOOST_PARAM,
-        .description = COMPOUND_STRING(
-            "A hold item that\n"
-            "raises the power of\n"
-            "Poison-type moves."),
+        .description = sGrimeIncenseDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -8239,10 +8275,7 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 8000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_QUICK_CLAW,
         .holdEffectParam = 20,
-        .description = COMPOUND_STRING(
-            "A hold item that\n"
-            "occasionally allows\n"
-            "the first strike."),
+        .description = sRichIncenseDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -15732,5 +15765,19 @@ const struct Item gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
+    },
+    
+    [ITEM_LINK_CABLE] = //  x_MODIFY_x
+    {
+        .name = _("Link Cable"),
+        .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
+        .description = sEvolutionStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .effect = gItemEffect_EvoItem,
+        .flingPower = 30,
+        .iconPic = gItemIcon_QuestionMark,
+        .iconPalette = gItemIconPalette_QuestionMark,
     },
 };

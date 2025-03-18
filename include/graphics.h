@@ -1740,6 +1740,10 @@ extern const u32 gItemIconPalette_SwapSnack[];
 extern const u32 gItemIcon_TwiceSpicedRadish[];
 extern const u32 gItemIconPalette_TwiceSpicedRadish[];
 
+// Custom x_MODIFY_x
+//extern const u32 gItemIcon_LinkCable[];
+//extern const u32 gItemIconPalette_LinkCable[];
+
 extern const u32 gItemIcon_ReturnToFieldArrow[];
 extern const u32 gItemIconPalette_ReturnToFieldArrow[];
 
