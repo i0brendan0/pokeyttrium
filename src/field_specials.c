@@ -5,6 +5,7 @@
 #include "battle_tower.h"
 #include "cable_club.h"
 #include "data.h"
+#include "daycare.h"
 #include "decoration.h"
 #include "diploma.h"
 #include "event_data.h"
@@ -160,6 +161,8 @@ static const u8 sText_99TimesPlus[] = _("99 times +");
 static const u8 sText_1MinutePlus[] = _("1 minute +");
 static const u8 sText_SpaceSeconds[] = _(" seconds");
 static const u8 sText_SpaceTimes[] = _(" time(s)");
+
+//static void TryGiveRandomBabyEgg(void);
 
 void Special_ShowDiploma(void)
 {
@@ -4362,6 +4365,88 @@ void GetCodeFeedback(void)
     else
         gSpecialVar_Result = 0;
 }
+
+
+static const u16 sBabySpecies[] =
+{
+    SPECIES_PICHU,
+    SPECIES_CLEFFA,
+    SPECIES_IGGLYBUFF,
+    SPECIES_TOGEPI,
+    SPECIES_TYROGUE,
+    SPECIES_SMOOCHUM,
+    SPECIES_ELEKID,
+    SPECIES_MAGBY,
+    SPECIES_AZURILL,
+    SPECIES_WYNAUT,
+    SPECIES_BUDEW,
+    SPECIES_CHINGLING,
+    SPECIES_BONSLY,
+    SPECIES_MIME_JR,
+    SPECIES_HAPPINY,
+    SPECIES_MUNCHLAX,
+    SPECIES_RIOLU,
+    SPECIES_MANTYKE,
+    SPECIES_TOXEL,
+    SPECIES_CHIKS,
+    SPECIES_GOLPY,
+    SPECIES_GRIMEY,
+    SPECIES_MEOWSY,
+    SPECIES_MINICORN,
+    SPECIES_PARA,
+    SPECIES_PUDDI,
+    SPECIES_TANGEL,
+    SPECIES_TRIFOX,
+    SPECIES_x_DUNSPARCE_x,
+    SPECIES_PHIONE,
+};
+
+void TryGiveRandomBabyEgg(void)
+{
+    u16 species = sBabySpecies[Random() % ARRAY_COUNT(sBabySpecies)];
+    struct Pokemon mon;
+    u8 i;
+    u16 move = MOVE_DIZZY_PUNCH;
+    bool8 isShinyFlag = FlagGet(FLAG_FORCE_SHINY);
+    bool8 isNotShinyFlag = FlagGet(FLAG_FORCE_NOT_SHINY);
+    
+    if ((species == SPECIES_PHIONE) && (Random() & 1))
+        species = sBabySpecies[Random() % ARRAY_COUNT(sBabySpecies)];
+    
+    if ((Random() % 100) < SHINY_ODDS)
+    {
+        FlagSet(FLAG_FORCE_SHINY);
+        FlagClear(FLAG_FORCE_NOT_SHINY);
+    }
+    else
+    {
+        FlagClear(FLAG_FORCE_SHINY);
+        FlagSet(FLAG_FORCE_NOT_SHINY);
+    }
+    
+    CreateEgg(&mon, species, FALSE);
+    
+    // Reset shiny flags if they were something beforehand
+    if (isShinyFlag)
+        FlagSet(FLAG_FORCE_SHINY);
+    else
+        FlagClear(FLAG_FORCE_SHINY);
+    if (isNotShinyFlag)
+        FlagSet(FLAG_FORCE_NOT_SHINY);
+    else
+        FlagClear(FLAG_FORCE_NOT_SHINY);
+    
+    for (i = 0; i < MAX_MON_MOVES; i++)
+    {
+        if ((GetMonData(&mon, MON_DATA_MOVE1 + i, NULL)) == MOVE_NONE)
+            break;
+    }
+    SetMonData(&mon, MON_DATA_MOVE1 + i, &move);
+    
+    GiveMonToPlayer(&mon);
+}
+
+
 static const u16 sHiddenTreeCommonItemList[] =
 {
     ITEM_NONE,
