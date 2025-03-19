@@ -120,7 +120,7 @@ static const u16 sRegionMapCursorPal[] = INCBIN_U16("graphics/pokenav/region_map
 static const u32 sRegionMapCursorSmallGfxLZ[] = INCBIN_U32("graphics/pokenav/region_map/cursor_small.4bpp.lz");
 static const u32 sRegionMapCursorLargeGfxLZ[] = INCBIN_U32("graphics/pokenav/region_map/cursor_large.4bpp.lz");
 static const u16 sRegionMapBg_Pal[] = INCBIN_U16("graphics/pokenav/region_map/map.gbapal");
-static const u32 sRegionMapBg_GfxLZ[] = INCBIN_U32("graphics/pokenav/region_map/map.8bpp.lz");
+static const u32 sRegionMapBg_GfxLZ[] = INCBIN_U32("graphics/pokenav/region_map/map.4bpp.lz");
 static const u32 sRegionMapBg_TilemapLZ[] = INCBIN_U32("graphics/pokenav/region_map/map.bin.lz");
 static const u16 sRegionMapPlayerIcon_BrendanPal[] = INCBIN_U16("graphics/pokenav/region_map/brendan_icon.gbapal");
 static const u8 sRegionMapPlayerIcon_BrendanGfx[] = INCBIN_U8("graphics/pokenav/region_map/brendan_icon.4bpp");
@@ -373,8 +373,8 @@ static const struct BgTemplate sFlyMapBgTemplates[] =
         .bg = 2,
         .charBaseIndex = 2,
         .mapBaseIndex = 28,
-        .screenSize = 2,
-        .paletteMode = 1,
+        .screenSize = 0,
+        .paletteMode = 0,
         .priority = 2
     }
 };
@@ -1679,7 +1679,7 @@ void CB2_OpenFlyMap(void)
         break;
     case 1:
         ResetBgsAndClearDma3BusyFlags(0);
-        InitBgsFromTemplates(1, sFlyMapBgTemplates, ARRAY_COUNT(sFlyMapBgTemplates));
+        InitBgsFromTemplates(0, sFlyMapBgTemplates, ARRAY_COUNT(sFlyMapBgTemplates));
         gMain.state++;
         break;
     case 2:

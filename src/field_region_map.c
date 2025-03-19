@@ -71,7 +71,8 @@ static const struct BgTemplate sFieldRegionMapBgTemplates[] = {
         .priority = 0,
         .baseTile = 0
     },
-    {        .bg = 2,
+    {
+        .bg = 2,
         .charBaseIndex = 2,
         .mapBaseIndex = 28,
         .screenSize = 0,

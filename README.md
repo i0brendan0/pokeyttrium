@@ -73,7 +73,7 @@ This hack has a completely new region based off of Scandinavia.
         - (Implemented but no trainers available yet.)
     - Trainers may give out items after being beaten in a rematch.
 
-### A new set of TMs - Up to 200 - Check [here](pokeyttrium/blob/master/info/TM.md) for locations
+### A new set of TMs - Up to 200 - Check [here](info/TM.md) for locations
 
     List TBD.
 
