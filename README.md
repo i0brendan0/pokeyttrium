@@ -113,7 +113,6 @@ This hack has a completely new region based off of Scandinavia.
         - See switch mon https://github.com/pret/pokeemerald/wiki/Show-Species-That-You're-Switching-For-in-the-Party-Menu
         - HM Items https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-15#post-10386496
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
-        - Triple layer metatiles https://github.com/pret/pokeemerald/wiki/Triple-layer-metatiles
         - Rival name https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10211189
 
 ## Changes
