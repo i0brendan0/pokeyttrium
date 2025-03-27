@@ -120,9 +120,7 @@ This hack has a completely new region based off of Scandinavia.
     - Add in placeholder overworld data for new Pokemon.
     - Check gen 5-8 Pokemon to give new abilities.
     - Pokeemerald Tutorials
-        - TM Case https://www.pokecommunity.com/showpost.php?p=10378278
         - One-time Shops https://www.pokecommunity.com/showpost.php?p=10133566&postcount=55
-        - See switch mon https://github.com/pret/pokeemerald/wiki/Show-Species-That-You're-Switching-For-in-the-Party-Menu
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
         - Rival name https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10211189
 
