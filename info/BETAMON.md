@@ -65,6 +65,9 @@
         - Meowsy - Beta Meowth baby
             - Normal
                 - Baby Meowth
+                - Evolves into Kantonian Meowth with high friendship during the day.
+                - Evolves into Alolan Meowth with high friendship during the night.
+                - Evolves into Galarian Meowth with Metal Coat + Trade.
         - Rinring - Beta dark cat line
             - Dark/Fairy
         - Belloyant

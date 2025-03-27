@@ -3,7 +3,7 @@
 ## What is this hack
 
 This hack has a completely new region based off of Scandinavia.
-    (Region map soon)
+    Name TBD.
 
 ## Features
 
@@ -24,6 +24,9 @@ This hack has a completely new region based off of Scandinavia.
 
 ### New Features
 
+    - HMs are no longer available. They are replaced with items that function the same.
+        - Waterfall doesn't have an item but will be useable after an event unlocks it.
+        - NPCs will allow you to fly from place to place if you don't have a Pokemon that knows fly.
     - The unused ability Cacophony has been re-added as an alternative to Punk Rocker. (Potentially remove)
         - Pokemon with Cacophony do 1.5x damage with sound-based moves.
         - Pokemon with Cacophony will get a 10% boost to accuracy with sound-based moves.
@@ -69,9 +72,19 @@ This hack has a completely new region based off of Scandinavia.
             - You'll get a new egg each time you beat the Champion.
     - Upon entering the Hall of Fame for the first time, certain locations may have their wild Pokemon change.
         - Will mostly allow non-native Pokemon to be available without jamming them into post-game locations.
-    - 18 trainers are scattered throughout Hoenn, one for each type. Defeating them will give a bonus to damage done by their type.
+    - 18 trainers are scattered throughout the region, one for each type. Defeating them will give a bonus to damage done by their type.
         - (Implemented but no trainers available yet.)
     - Trainers may give out items after being beaten in a rematch.
+    - New Moves
+        - Name TDB
+            - Ghost Type
+            - Works like False Swipe and Hold Back.
+        - Name TBD
+            - Poison Type
+            - Variation of Dynamic Punch, Inferno, Zap Cannon, but poisons.
+        - Name TBD
+            - Ice Type
+            - Variation of Dynamic Punch, Inferno, Zap Cannon, but freezes.
 
 ### A new set of TMs - Up to 200 - Check [here](info/TM.md) for locations
 
@@ -109,9 +122,7 @@ This hack has a completely new region based off of Scandinavia.
     - Pokeemerald Tutorials
         - TM Case https://www.pokecommunity.com/showpost.php?p=10378278
         - One-time Shops https://www.pokecommunity.com/showpost.php?p=10133566&postcount=55
-        - Faster text https://www.pokecommunity.com/showpost.php?p=10400198
         - See switch mon https://github.com/pret/pokeemerald/wiki/Show-Species-That-You're-Switching-For-in-the-Party-Menu
-        - HM Items https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-15#post-10386496
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
         - Rival name https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10211189
 
@@ -144,6 +155,7 @@ This hack has a completely new region based off of Scandinavia.
         - Super Potions, Super Repels, Great Balls, Shards, Escape Ropes, Single Status Healing Items - 3
         - Ethers, Elixirs, Specialty Balls, Revives, Full Heals, Bitter Recovery Items (not including Revival Herb) - 2
     - If a Pokemon has their hidden ability, it will be highlighted in the summary screen.
+    - Text goes faster.
 
 ### Type Changes -  Check [here](info/TYPE_CHANGES.md) for Pokemon type changes.
 
