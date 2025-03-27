@@ -30,7 +30,8 @@ This hack has a completely new region based off of Scandinavia.
     - The unused ability Cacophony has been re-added as an alternative to Punk Rocker. (Potentially remove)
         - Pokemon with Cacophony do 1.5x damage with sound-based moves.
         - Pokemon with Cacophony will get a 10% boost to accuracy with sound-based moves.
-        - The Whismur and Kricketot line have Cacophony as their second ability. 
+        - The Whismur and Kricketot line have Cacophony as their second ability.
+        - Meloetta's Hidden Ability is Cacophony.
     - Pokemon that evolve by trade can now evolve through the use of a Link Cable. (Potentially remove)
     - Pokemon that evolve by trade while holding an item can now evolve through the use of a Link Cable while holding that item. (Potentially remove)
     - Phione evolves into Manaphy at high friendship.
@@ -140,7 +141,10 @@ This hack has a completely new region based off of Scandinavia.
             - Plusle and Minun
             - Starly
             - Manaphy and Phione
-            - Check Gen 5-8 Pokemon
+            - Elemental Monkeys
+            - Emolga
+            - Fufrou's Hidden Ability
+            - Skwovet and Greedent
     - More bag space. 100 spots now.
     - More PC space. 100 spots now.
     - Rose Incense has been renamed. It's now called the Grass Incense.
