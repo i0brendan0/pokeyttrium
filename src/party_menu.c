@@ -4091,7 +4091,7 @@ static void Task_CancelAfterAorBPress(u8 taskId)
 
 static bool8 SetUpFieldMove_Fly(void)
 {
-    if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE || !FlagGet(FLAG_ENABLE_FLY)
+    if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE || !FlagGet(FLAG_ENABLE_FLY))
         return TRUE;
     else
         return FALSE;
