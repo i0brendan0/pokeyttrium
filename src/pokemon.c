@@ -4599,11 +4599,11 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
             case EVO_TRADE:
-                if (evolutionItem == ITEM_LINK_CABLE)
+                if (evolutionItem == ITEM_LINKING_CORD)
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
             case EVO_TRADE_ITEM:
-                if (evolutionItem == ITEM_LINK_CABLE && evolutions[i].param == heldItem)
+                if (evolutionItem == ITEM_LINKING_CORD && evolutions[i].param == heldItem)
                     targetSpecies = evolutions[i].targetSpecies;
                     consumeItem = TRUE;
                 break;

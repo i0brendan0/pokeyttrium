@@ -2102,5 +2102,3 @@ const u32 gItemIconPalette_TwiceSpicedRadish[] = INCBIN_U32("graphics/items/icon
 
 // Custom x_MODIFY_x
 
-//const u32 gItemIcon_LinkCable[] = INCBIN_U32("graphics/items/icons/link_cable.4bpp.lz");
-//const u32 gItemIconPalette_LinkCable[] = INCBIN_U32("graphics/items/icon_palettes/link_cable.gbapal.lz");

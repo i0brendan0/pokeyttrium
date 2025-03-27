@@ -15767,17 +15767,6 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
     
-    [ITEM_LINK_CABLE] = //  x_MODIFY_x
     {
-        .name = _("Link Cable"),
-        .price = (I_PRICE >= GEN_7) ? 3000 : 2100,
-        .description = sEvolutionStoneDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
-        .effect = gItemEffect_EvoItem,
-        .flingPower = 30,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
     },
 };
