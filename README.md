@@ -40,6 +40,7 @@ This hack has a completely new region based off of Scandinavia.
             - Water
             - Does damage during rain based on the user's weight.
         - Cut
+            - Grass
             - High critical hit ratio.
         - Strength
             - 20% chance to flinch
@@ -77,13 +78,13 @@ This hack has a completely new region based off of Scandinavia.
         - (Implemented but no trainers available yet.)
     - Trainers may give out items after being beaten in a rematch.
     - New Moves
-        - Name TDB
+        - Parasomnia
             - Ghost Type
             - Works like False Swipe and Hold Back.
-        - Name TBD
+        - Toxic Venom
             - Poison Type
             - Variation of Dynamic Punch, Inferno, Zap Cannon, but poisons.
-        - Name TBD
+        - Sheer Freeze
             - Ice Type
             - Variation of Dynamic Punch, Inferno, Zap Cannon, but freezes.
     - Talking to a specific NPC will allow you to keep a Pokemon from evolving.
