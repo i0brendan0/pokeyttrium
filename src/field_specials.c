@@ -4536,3 +4536,16 @@ void FindHiddenTreePokemon(void)
     VarSet(gSpecialVar_0x8000, hiddenTreeMonsInfo->wildPokemon[monNum].species);
     VarSet(gSpecialVar_0x8001, minlvl);
 }
+
+u16 SetChosenMonCantEvolve(void)
+{
+    bool8 val = 0;
+    
+    if (!GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_CANT_EVOLVE, NULL))
+    {
+        val = 1;
+    }
+    SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_CANT_EVOLVE, &val);
+    
+    return val;
+}

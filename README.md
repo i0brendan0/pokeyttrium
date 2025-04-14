@@ -86,6 +86,9 @@ This hack has a completely new region based off of Scandinavia.
         - Name TBD
             - Ice Type
             - Variation of Dynamic Punch, Inferno, Zap Cannon, but freezes.
+    - Talking to a specific NPC will allow you to keep a Pokemon from evolving.
+        - Only stops evolutions that involve leveling up.
+        - Talking to them again will re-enable evolution.
 
 ### A new set of TMs - Up to 200 - Check [here](info/TM.md) for locations
 
