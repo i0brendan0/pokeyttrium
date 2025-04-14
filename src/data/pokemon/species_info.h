@@ -999,7 +999,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Cruz)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_AQUIS}), //
+        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_AQUIS}),
     },
     
     [SPECIES_DANDENEKO] =
@@ -1062,7 +1062,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Dandeneko)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_COTTONEKO}), //
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_COTTONEKO}),
     },
     
     [SPECIES_DYNABEAR] =
@@ -1188,7 +1188,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Flambear)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_VOLBEAR}), //
+        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_VOLBEAR}),
     },
     
     [SPECIES_GOHNG] =
@@ -1381,7 +1381,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Grimey)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_GRIMER}),
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP_DAY, 0, SPECIES_GRIMER},
+                                {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_GRIMER_ALOLA}),
     },
     
     [SPECIES_GROTESS] =
@@ -1506,7 +1507,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Kotora)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_RAITORA}), //
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RAITORA}),
     },
     
     [SPECIES_KURSTRAW] =
@@ -1762,7 +1763,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Meowsy)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_MEOWTH}),
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP_DAY, 0, SPECIES_MEOWTH},
+                                {EVO_FRIENDSHIP_NIGHT, 0, SPECIES_MEOWTH_ALOLA},
+                                {EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_MEOWTH_GALAR}),
     },
     
     [SPECIES_MINICORN] =
@@ -1825,7 +1828,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Minicorn)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_PONYTA}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_PONYTA},
+                                {EVO_ITEM, ITEM_SHINY_STONE, SPECIES_PONYTA_GALAR}),
     },
     
     [SPECIES_NUMPUFF] =
@@ -2760,7 +2764,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Trifox)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_VULPIX}),
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP_SNOW, 0, SPECIES_VULPIX_ALOLA},
+                                {EVO_FRIENDSHIP, 0, SPECIES_VULPIX}),
     },
     
     [SPECIES_TURBANN] =
@@ -2950,7 +2955,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Volbear)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_DYNABEAR}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 34, SPECIES_DYNABEAR}),
     },
     
     [SPECIES_WARWOLF] =

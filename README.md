@@ -109,6 +109,11 @@ This hack has a completely new region based off of Scandinavia.
         - Full Incense - Dunslet
         - Lax Incense - Chiks
 
+### Check [here](info/EVOLUTIONS.md) for modified evolutions.
+
+    - All regional forms will be available. Not including Hisuian or Paldean.
+    - Evolutions between regional forms will have different triggers.
+
 ### TODO LIST
 
     - TMs 1-200 need descriptions.
@@ -128,6 +133,7 @@ This hack has a completely new region based off of Scandinavia.
         - One-time Shops https://www.pokecommunity.com/showpost.php?p=10133566&postcount=55
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
         - Rival name https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-8#post-10211189
+        - Flying Taxis https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-11#post-10262538
 
 ## Changes
 

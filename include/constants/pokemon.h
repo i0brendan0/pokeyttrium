@@ -300,7 +300,9 @@ enum EvolutionMethods {
     EVO_ITEM_COUNT_999,                  // Pokémon levels up after trainer has collected 999 of a specific item
     EVO_DEFEAT_THREE_WITH_ITEM,          // Pokémon levels up after having defeat 3 Pokémon of the same species holding the specified item
     EVO_OVERWORLD_STEPS,                 // Pokémon levels up after having taken a specific amount of steps in the overworld
-    EVO_SPECIFIC_LEVEL,                 // Pokémon levels up only at the specific level
+    EVO_SPECIFIC_LEVEL,                  // Pokémon levels up only at the specific level
+    EVO_FRIENDSHIP_SNOW,                 // Pokémon levels up with friendship ≥ 220 while it is snowing or hailing
+    EVO_MOVE_TYPE,                       // Pokémon levels up, knows a move of the specified type
 };
 
 enum EvolutionMode {

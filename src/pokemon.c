@@ -4406,6 +4406,16 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                     }
                 }
                 break;
+            case EVO_MOVE_TYPE:
+                for (j = 0; j < MAX_MON_MOVES; j++)
+                {
+                    if (GetMoveType(GetMonData(mon, MON_DATA_MOVE1 + j, NULL)) == evolutions[i].param)
+                    {
+                        targetSpecies = evolutions[i].targetSpecies;
+                        break;
+                    }
+                }
+                break;
             case EVO_SPECIFIC_MON_IN_PARTY:
                 for (j = 0; j < PARTY_SIZE; j++)
                 {
@@ -4441,6 +4451,12 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                 j = GetCurrentWeather();
                 if (evolutions[i].param <= level
                  && (j == WEATHER_FOG_HORIZONTAL || j == WEATHER_FOG_DIAGONAL))
+                    targetSpecies = evolutions[i].targetSpecies;
+                break;
+            case EVO_FRIENDSHIP_SNOW:
+                j = GetCurrentWeather();
+                if (friendship >= FRIENDSHIP_EVO_THRESHOLD
+                 && (j == WEATHER_SNOW))
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
             case EVO_MAPSEC:
