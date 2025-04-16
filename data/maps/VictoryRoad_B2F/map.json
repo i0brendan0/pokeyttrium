@@ -156,5 +156,6 @@
       "item": "ITEM_MAX_REPEL",
       "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_MAX_REPEL"
     }
-  ]
+  ],
+  "popup": "MAPPOPUP_THEME_STONE"
 }
