@@ -241,7 +241,8 @@
 #define MAPSEC_SANDY_BEACH                  0xED
 #define MAPSEC_DESERT_PATH                  0xEE
 #define MAPSEC_ROUTE_26                     0xEF
-#define MAPSEC_NONE                         0xF0
+#define MAPSEC_CAVE_1                       0xF0
+#define MAPSEC_NONE                         0xF1
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE
