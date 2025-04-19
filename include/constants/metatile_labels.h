@@ -440,8 +440,10 @@
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
 
 // gTileset_Rustboro
-#define METATILE_Rustboro_Door_Gray  0x21F
-#define METATILE_Rustboro_Door_Tan   0x22F
+#define METATILE_Rustboro_Door            0x384
+#define METATILE_Rustboro_Door_DeptStore  0x36E
+#define METATILE_Rustboro_Door_Gray       0x21F
+#define METATILE_Rustboro_Door_Tan        0x22F
 
 // gTileset_SecretBase
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
@@ -725,6 +727,11 @@
 // gTileset_Slateport
 #define METATILE_Slateport_Door             0x2DC
 #define METATILE_Slateport_Door_BattleTent  0x393
+
+// gTileset_Snowy
+#define METATILE_Snowy_CalmWater       0x370
+#define METATILE_Snowy_RoughDeepWater  0x34F
+#define METATILE_Snowy_RoughWater      0x34E
 
 // gTileset_Sootopolis
 #define METATILE_Sootopolis_Door             0x21E
