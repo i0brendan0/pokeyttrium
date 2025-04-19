@@ -1,0 +1,45 @@
+{
+  "id": "MAP_ONE_TOWN",
+  "name": "OneTown",
+  "layout": "LAYOUT_ONE_TOWN",
+  "music": "MUS_DUMMY",
+  "region_map_section": "MAPSEC_TOWN_1",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE1",
+      "offset": -30,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE15",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_TWO_CITY",
+      "offset": -30,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ],
+  "popup": "MAPPOPUP_THEME_BRICK"
+}
