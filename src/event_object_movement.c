@@ -9363,6 +9363,9 @@ static void GetGroundEffectFlags_Tracks(struct ObjectEvent *objEvent, u32 *flags
     else if (MetatileBehavior_IsSandOrDeepSand(objEvent->previousMetatileBehavior)
              || MetatileBehavior_IsFootprints(objEvent->previousMetatileBehavior))
         *flags |= GROUND_EFFECT_FLAG_SAND;
+    else if (MetatileBehavior_IsSnow(objEvent->previousMetatileBehavior)
+             || MetatileBehavior_IsFootprints(objEvent->previousMetatileBehavior))
+        *flags |= GROUND_EFFECT_FLAG_SNOW;
 }
 
 static void GetGroundEffectFlags_SandHeap(struct ObjectEvent *objEvent, u32 *flags)
@@ -9781,6 +9784,12 @@ void GroundEffect_SandTracks(struct ObjectEvent *objEvent, struct Sprite *sprite
     sGroundEffectTracksFuncs[objEvent->invisible ? TRACKS_NONE : info->tracks](objEvent, sprite, FALSE);
 }
 
+void GroundEffect_SnowTracks(struct ObjectEvent *objEvent, struct Sprite *sprite)
+{
+    const struct ObjectEventGraphicsInfo *info = GetObjectEventGraphicsInfo(objEvent->graphicsId);
+    sGroundEffectTracksFuncs[objEvent->invisible ? TRACKS_NONE : info->tracks](objEvent, sprite, FALSE);
+}
+
 void GroundEffect_DeepSandTracks(struct ObjectEvent *objEvent, struct Sprite *sprite)
 {
     const struct ObjectEventGraphicsInfo *info = GetObjectEventGraphicsInfo(objEvent->graphicsId);
@@ -9794,11 +9803,15 @@ static void DoTracksGroundEffect_None(struct ObjectEvent *objEvent, struct Sprit
 static void DoTracksGroundEffect_Footprints(struct ObjectEvent *objEvent, struct Sprite *sprite, bool8 isDeepSand)
 {
     // First half-word is a Field Effect script id. (gFieldEffectScriptPointers)
-    u16 sandFootprints_FieldEffectData[2] = {
+    u16 sandFootprints_FieldEffectData[3] = {
         FLDEFF_SAND_FOOTPRINTS,
-        FLDEFF_DEEP_SAND_FOOTPRINTS
+        FLDEFF_DEEP_SAND_FOOTPRINTS,
+        FLDEFF_SNOW_FOOTPRINTS
     };
 
+    if (MetatileBehavior_IsSnow(objEvent->previousMetatileBehavior))
+        isDeepSand = 2;
+    
     gFieldEffectArguments[0] = objEvent->previousCoords.x;
     gFieldEffectArguments[1] = objEvent->previousCoords.y;
     gFieldEffectArguments[2] = 149;
@@ -10006,7 +10019,8 @@ static void (*const sGroundEffectFuncs[])(struct ObjectEvent *objEvent, struct S
     GroundEffect_JumpLandingDust,       // GROUND_EFFECT_FLAG_LAND_ON_NORMAL_GROUND
     GroundEffect_ShortGrass,            // GROUND_EFFECT_FLAG_SHORT_GRASS
     GroundEffect_HotSprings,            // GROUND_EFFECT_FLAG_HOT_SPRINGS
-    GroundEffect_Seaweed                // GROUND_EFFECT_FLAG_SEAWEED
+    GroundEffect_Seaweed,               // GROUND_EFFECT_FLAG_SEAWEED
+    GroundEffect_SnowTracks             // GROUND_EFFECT_FLAG_SNOW
 };
 
 static void DoFlaggedGroundEffects(struct ObjectEvent *objEvent, struct Sprite *sprite, u32 flags)

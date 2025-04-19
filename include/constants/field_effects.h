@@ -76,6 +76,7 @@
 #define FLDEFF_TRACKS_SPOT               71
 #define FLDEFF_TRACKS_BUG                72
 #define FLDEFF_CAVE_DUST                 73
+#define FLDEFF_SNOW_FOOTPRINTS           74
 
 #define FLDEFFOBJ_SHADOW_S              0
 #define FLDEFFOBJ_SHADOW_M              1
@@ -118,6 +119,7 @@
 #define FLDEFFOBJ_TRACKS_SPOT           38
 #define FLDEFFOBJ_TRACKS_BUG            39
 #define FLDEFFOBJ_CAVE_DUST             40
+#define FLDEFFOBJ_SNOW_FOOTPRINTS       41
 
 #define FLDEFF_PAL_TAG_CUT_GRASS          0x1000
 #define FLDEFF_PAL_TAG_SECRET_POWER_TREE  0x1003

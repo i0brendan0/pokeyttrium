@@ -12,6 +12,7 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_TALL_GRASS]                         = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_LONG_GRASS]                         = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_UNUSED_05]                          = TILE_FLAG_HAS_ENCOUNTERS,
+    [MB_SNOW]                               = TILE_FLAG_UNUSED,
     [MB_DEEP_SAND]                          = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
     [MB_SHORT_GRASS]                        = TILE_FLAG_UNUSED,
     [MB_CAVE]                               = TILE_FLAG_UNUSED | TILE_FLAG_HAS_ENCOUNTERS,
@@ -196,6 +197,14 @@ bool8 MetatileBehavior_IsSandOrDeepSand(u8 metatileBehavior)
         return FALSE;
 }
 
+bool8 MetatileBehavior_IsSnow(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_SNOW)
+        return TRUE;
+    else
+        return FALSE;
+}
+
 bool8 MetatileBehavior_IsDeepSand(u8 metatileBehavior)
 {
     if (metatileBehavior == MB_DEEP_SAND)
@@ -253,9 +262,6 @@ bool8 MetatileBehavior_IsEscalator(u8 metatileBehavior)
 
 bool8 Unref_MetatileBehavior_IsUnused04(u8 metatileBehavior)
 {
-    if (metatileBehavior == MB_UNUSED_04)
-        return TRUE;
-    else
         return FALSE;
 }
 
