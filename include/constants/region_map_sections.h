@@ -242,7 +242,11 @@
 #define MAPSEC_DESERT_PATH                  0xEE
 #define MAPSEC_ROUTE_26                     0xEF
 #define MAPSEC_CAVE_1                       0xF0
-#define MAPSEC_NONE                         0xF1
+#define MAPSEC_UNDERWATER_FROZEN_BEACH      0xF1
+#define MAPSEC_UNDERWATER_SANDY_BEACH       0xF2
+#define MAPSEC_UNDERWATER_ROUTE_14          0xF3
+#define MAPSEC_TWO_CITY_UNDERGROUND         0xF4
+#define MAPSEC_NONE                         0xF5
 
 #define METLOC_SPECIAL_EGG                  0xFD
 #define METLOC_IN_GAME_TRADE                0xFE

@@ -4467,7 +4467,7 @@
       "width": 30,
       "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/SixTown/border.bin",
       "blockdata_filepath": "data/layouts/SixTown/map.bin"
     },
@@ -4587,7 +4587,7 @@
       "width": 30,
       "height": 90,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route2/border.bin",
       "blockdata_filepath": "data/layouts/Route2/map.bin"
     },
@@ -4647,7 +4647,7 @@
       "width": 30,
       "height": 120,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route8/border.bin",
       "blockdata_filepath": "data/layouts/Route8/map.bin"
     },
@@ -4657,7 +4657,7 @@
       "width": 30,
       "height": 60,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route9/border.bin",
       "blockdata_filepath": "data/layouts/Route9/map.bin"
     },
@@ -4744,10 +4744,10 @@
     {
       "id": "LAYOUT_ROUTE18",
       "name": "Route18_Layout",
-      "width": 30,
+      "width": 60,
       "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route18/border.bin",
       "blockdata_filepath": "data/layouts/Route18/map.bin"
     },

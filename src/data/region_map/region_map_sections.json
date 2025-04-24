@@ -131,9 +131,9 @@
     {
       "map_section": "MAPSEC_ROUTE_17",
       "name": "ROUTE 17",
-      "x": 4,
+      "x": 5,
       "y": 9,
-      "width": 5,
+      "width": 4,
       "height": 1
     },
     {
@@ -141,7 +141,7 @@
       "name": "ROUTE 18",
       "x": 3,
       "y": 9,
-      "width": 1,
+      "width": 2,
       "height": 1
     },
     {
@@ -258,7 +258,7 @@
     },
     {
       "map_section": "MAPSEC_FOREST_2",
-      "name": "FOREST",
+      "name": "SOUTHERN FOREST",
       "x": 15,
       "y": 11,
       "width": 1,
@@ -266,7 +266,7 @@
     },
     {
       "map_section": "MAPSEC_FOREST_1",
-      "name": "FOREST",
+      "name": "NORTHERN FOREST",
       "x": 21,
       "y": 4,
       "width": 1,
@@ -282,7 +282,7 @@
     },
     {
       "map_section": "MAPSEC_CEMETERY",
-      "name": "CEMETERY",
+      "name": "THREE CITY CEMETERY",
       "x": 6,
       "y": 3,
       "width": 1,
@@ -437,6 +437,38 @@
       "name": "CAVE",
       "x": 17,
       "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERWATER_FROZEN_BEACH",
+      "name": "FROZEN BEACH",
+      "x": 13,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERWATER_SANDY_BEACH",
+      "name": "SANDY BEACH",
+      "x": 2,
+      "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERWATER_ROUTE_14",
+      "name": "ROUTE 14",
+      "x": 12,
+      "y": 8,
+      "width": 3,
+      "height": 3
+    },
+    {
+      "map_section": "MAPSEC_TWO_CITY_UNDERGROUND",
+      "name": "UNDERGROUND",
+      "x": 10,
+      "y": 10,
       "width": 1,
       "height": 1
     }
