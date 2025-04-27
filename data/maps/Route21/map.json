@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_THIRTEEN_TOWN",
-      "offset": 0,
+      "offset": -30,
       "direction": "down"
     },
     {

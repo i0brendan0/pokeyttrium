@@ -209,14 +209,6 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_DESERT_PATH",
-      "name": "DESERT PATH",
-      "x": 7,
-      "y": 7,
-      "width": 1,
-      "height": 1
-    },
-    {
       "map_section": "MAPSEC_SANDY_BEACH",
       "name": "SANDY BEACH",
       "x": 2,
@@ -442,7 +434,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_FROZEN_BEACH",
-      "name": "FROZEN BEACH",
+      "name": "UNDERWATER",
       "x": 13,
       "y": 0,
       "width": 1,
@@ -450,7 +442,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_SANDY_BEACH",
-      "name": "SANDY BEACH",
+      "name": "UNDERWATER",
       "x": 2,
       "y": 10,
       "width": 1,
@@ -458,7 +450,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_ROUTE_14",
-      "name": "ROUTE 14",
+      "name": "UNDERWATER",
       "x": 12,
       "y": 8,
       "width": 3,
@@ -466,9 +458,57 @@
     },
     {
       "map_section": "MAPSEC_TWO_CITY_UNDERGROUND",
-      "name": "UNDERGROUND",
+      "name": "TWO CITY UNDERGROUND",
       "x": 10,
       "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_DESERT_UNDERPASS",
+      "name": "DESERT PATH",
+      "x": 7,
+      "y": 7,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TWO_CITY_MINE",
+      "name": "TWO CITY MINE",
+      "x": 10,
+      "y": 10,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_UNDERWATER_ROUTE_20",
+      "name": "UNDERWATER",
+      "x": 3,
+      "y": 6,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_TRAINER_HILL",
+      "name": "TRAINER HILL",
+      "x": 3,
+      "y": 9,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_ABANDONED_SHIP",
+      "name": "ABANDONED SHIP",
+      "x": 4,
+      "y": 6,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "map_section": "MAPSEC_SAFARI_ZONE",
+      "name": "SAFARI ZONE",
+      "x": 8,
+      "y": 3,
       "width": 1,
       "height": 1
     }
