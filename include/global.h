@@ -545,8 +545,6 @@ struct SaveBlock2
              u16 optionsBattleStyle:1; // OPTIONS_BATTLE_STYLE_[SHIFT/SET]
              u16 optionsBattleSceneOff:1; // whether battle animations are disabled
              u16 regionMapZoom:1; // whether the map is zoomed in
-             //u16 padding1:4;
-             //u16 padding2;
     /*0x18*/ struct Pokedex pokedex;
     /*0x90*/ u8 filler_90[0x8];
     /*0x98*/ struct Time localTimeOffset;
@@ -595,7 +593,6 @@ struct SecretBase
     /*0x1AAD*/ u8 unused;
     /*0x1AAE*/ u8 decorations[DECOR_MAX_SECRET_BASE];
     /*0x1ABE*/ u8 decorationPositions[DECOR_MAX_SECRET_BASE];
-    /*0x1ACE*/ //u8 padding[2];
     /*0x1AD0*/ struct SecretBaseParty party;
 };
 
@@ -610,7 +607,6 @@ struct WarpData
     s8 mapGroup;
     s8 mapNum;
     s8 warpId;
-    //u8 padding;
     s16 x, y;
 };
 
@@ -656,7 +652,6 @@ struct RamScriptData
     u8 mapNum;
     u8 objectId;
     u8 script[995];
-    //u8 padding;
 };
 
 struct RamScript
@@ -671,7 +666,6 @@ struct DewfordTrend
     u16 trendiness:7;
     u16 maxTrendiness:7;
     u16 gainingTrendiness:1;
-    //u16 padding:1;
     u16 rand;
     u16 words[2];
 }; /*size = 0x8*/
@@ -684,7 +678,6 @@ struct MauvilleManCommon
 struct MauvilleManBard
 {
     /*0x00*/ u8 id;
-    /*0x01*/ //u8 padding1;
     /*0x02*/ u16 songLyrics[NUM_BARD_SONG_WORDS];
     /*0x0E*/ u16 newSongLyrics[NUM_BARD_SONG_WORDS];
     /*0x1A*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
@@ -692,7 +685,6 @@ struct MauvilleManBard
     /*0x25*/ u8 playerTrainerId[TRAINER_ID_LENGTH];
     /*0x29*/ bool8 hasChangedSong;
     /*0x2A*/ u8 language;
-    /*0x2B*/ //u8 padding2;
 }; /*size = 0x2C*/
 
 struct MauvilleManStoryteller
@@ -711,11 +703,9 @@ struct MauvilleManGiddy
     /*0x00*/ u8 id;
     /*0x01*/ u8 taleCounter;
     /*0x02*/ u8 questionNum;
-    /*0x03*/ //u8 padding1;
     /*0x04*/ u16 randomWords[GIDDY_MAX_TALES];
     /*0x18*/ u8 questionList[GIDDY_MAX_QUESTIONS];
     /*0x20*/ u8 language;
-    /*0x21*/ //u8 padding2;
 }; /*size = 0x2C*/
 
 struct MauvilleManHipster
@@ -760,7 +750,6 @@ struct LinkBattleRecords
 {
     struct LinkBattleRecord entries[LINK_B_RECORDS_COUNT];
     u8 languages[LINK_B_RECORDS_COUNT];
-    //u8 padding;
 };
 
 struct RecordMixingGiftData
@@ -787,7 +776,6 @@ struct ContestWinner
     u8 trainerName[PLAYER_NAME_LENGTH + 1];
     u8 contestRank:7;
     bool8 isShiny:1;
-    //u8 padding;
 };
 
 struct Mail
@@ -846,11 +834,9 @@ struct LilycoveLadyFavor
     /*0x003*/ u8 numItemsGiven;
     /*0x004*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     /*0x00C*/ u8 favorId;
-    /*0x00D*/ //u8 padding1;
     /*0x00E*/ u16 itemId;
     /*0x010*/ u16 bestItem;
     /*0x012*/ u8 language;
-    /*0x013*/ //u8 padding2;
 };
 
 struct LilycoveLadyContest
@@ -881,7 +867,6 @@ struct WaldaPhrase
     u8 iconId;
     u8 patternId;
     bool8 patternUnlocked;
-    //u8 padding;
 };
 
 struct TrainerNameRecord
