@@ -453,7 +453,7 @@ void UpdateTallGrassFieldEffect(struct Sprite *sprite)
     metatileBehavior = MapGridGetMetatileBehaviorAt(sprite->sX, sprite->sY);
 
     if (TryGetObjectEventIdByLocalIdAndMap(localId, mapNum, mapGroup, &objectEventId)
-     || !MetatileBehavior_IsTallGrass(metatileBehavior)
+     || (!MetatileBehavior_IsTallGrass(metatileBehavior) && !MetatileBehavior_IsDarkGrass(metatileBehavior))
      || (sprite->sObjectMoved && sprite->animEnded))
     {
         FieldEffectStop(sprite, FLDEFF_TALL_GRASS);
