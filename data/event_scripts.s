@@ -1249,3 +1249,5 @@ Common_EventScript_OddEgg::
 	.include "data/maps/SandyBeach/scripts.inc"
 
 	.include "data/maps/FrozenBeach/scripts.inc"
+
+	.include "data/maps/HauntedHouseOutside/scripts.inc"

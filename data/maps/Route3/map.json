@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 85,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_HOUSE_OUTSIDE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 86,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_HAUNTED_HOUSE_OUTSIDE",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

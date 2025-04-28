@@ -4757,7 +4757,7 @@
       "width": 30,
       "height": 60,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route19/border.bin",
       "blockdata_filepath": "data/layouts/Route19/map.bin"
     },
@@ -4850,6 +4850,16 @@
       "secondary_tileset": "gTileset_Snowy",
       "border_filepath": "data/layouts/FrozenBeach/border.bin",
       "blockdata_filepath": "data/layouts/FrozenBeach/map.bin"
+    },
+    {
+      "id": "LAYOUT_HAUNTED_HOUSE_OUTSIDE",
+      "name": "HauntedHouseOutside_Layout",
+      "width": 60,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/HauntedHouseOutside/border.bin",
+      "blockdata_filepath": "data/layouts/HauntedHouseOutside/map.bin"
     }
   ]
 }
