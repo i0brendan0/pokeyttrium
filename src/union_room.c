@@ -3112,7 +3112,7 @@ static void Task_RunUnionRoom(u8 taskId)
         break;
     case UR_STATE_REGISTER_COMPLETE:
         SetTradeBoardRegisteredMonInfo(sUnionRoomTrade.type, sUnionRoomTrade.playerSpecies, sUnionRoomTrade.playerLevel);
-        ScheduleFieldMessageAndExit(sText_RegistraionCompleted);
+        ScheduleFieldMessageAndExit(sText_RegistrationCompleted);
         break;
     case UR_STATE_CANCEL_REGISTRATION_PROMPT:
         switch (UnionRoomHandleYesNo(&uroom->textState, FALSE))
