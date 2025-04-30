@@ -3,7 +3,7 @@
 ## What is this hack
 
 This hack has a completely new region based off of Scandinavia.
-    Name TBD.
+    Introducing the Skåne Region.
 
 ## Features
 
@@ -26,14 +26,14 @@ This hack has a completely new region based off of Scandinavia.
 
     - HMs are no longer available. They are replaced with items that function the same.
         - Waterfall doesn't have an item but will be useable after an event unlocks it.
-        - NPCs will allow you to fly from place to place if you don't have a Pokemon that knows fly.
+        - Pressing R on the Pokenav will let the player Fly to that town/city.
     - The unused ability Cacophony has been re-added as an alternative to Punk Rocker. (Potentially remove)
         - Pokemon with Cacophony do 1.5x damage with sound-based moves.
         - Pokemon with Cacophony will get a 10% boost to accuracy with sound-based moves.
         - The Whismur and Kricketot line have Cacophony as their second ability.
         - Meloetta's Hidden Ability is Cacophony.
-    - Pokemon that evolve by trade can now evolve through the use of a Link Cable. (Potentially remove)
-    - Pokemon that evolve by trade while holding an item can now evolve through the use of a Link Cable while holding that item. (Potentially remove)
+    - Pokemon that evolve by trade can now evolve through the use of a Linking Cord.
+    - Pokemon that evolve by trade while holding an item can now evolve through the use of a Linking Cord while holding that item.
     - Phione evolves into Manaphy at high friendship.
     - Certain moves have changes in type and/or effect.
         - Splash
@@ -93,7 +93,99 @@ This hack has a completely new region based off of Scandinavia.
 
 ### A new set of TMs - Up to 200 - Check [here](info/TM.md) for locations
 
-    List TBD.
+    Moves with a 📗 have been TMs at least once.
+    Moves with a 📙 have only been Tutor moves.
+    Moves with a 📕 have been HMs.
+    Moves with a 📘 have never been TMs or Tutor moves.
+
+    - Confirmed TMs
+    
+    001 - Focus Punch 📗
+    006 - Toxic 📗
+    007 - Hail 📗
+    010 - Hidden Power 📗
+    011 - Sunny Day 📗
+    013 - Ice Beam 📗
+    014 - Blizzard 📗
+    015 - Hyper Beam 📗
+    016 - Light Screen 📗
+    017 - Protect 📗
+    018 - Rain Dance 📗
+    019 - Giga Drain 📗
+    021 - Frustration 📗
+    022 - Solar Beam 📗
+    024 - Thunderbolt 📗
+    025 - Thunder 📗
+    026 - Earthquake 📗
+    027 - Return 📗
+    028 - Dig 📗
+    029 - Psychic 📗
+    030 - Shadow Ball 📗
+    031 - Brick Break 📗
+    033 - Reflect 📗
+    035 - Flamethrower 📗
+    036 - Sludge Bomb 📗
+    037 - Sandstorm 📗
+    038 - Fire Blast 📗
+    042 - Facade 📗
+    044 - Rest 📗
+    045 - Attract 📗
+    051 - Roost 📗
+    053 - Energy Ball 📗
+    054 - False Swipe 📗
+    055 - Scald 📗
+    056 - Fling 📗
+    060 - Drain Punch 📗
+    068 - Giga Impact 📗
+    072 - Volt Switch 📗
+    073 - Thunder Wave 📗
+    075 - Swords Dance 📗
+    079 - Dark Pulse 📗
+    080 - Rock Slide 📗
+    089 - U-Turn 📗
+    090 - Substitute 📗
+    091 - Flash Cannon 📗
+    094 - Secret Power 📗
+    098 - Stomping Tantrum 📗
+    099 - Dazzling Gleam 📗
+    TBD - Defog 📕
+    TBD - Whirlpool 📕
+    TBD - Power-Up Punch 📗
+    TBD - Shadow Sneak 📘
+    144 - Fire Pledge 📙
+    145 - Water Pledge 📙
+    146 - Grass Pledge 📙
+    153 - Blast Burn 📙
+    154 - Hydro Cannon 📙
+    155 - Frenzy Plant 📙
+    169 - Draco Meteor 📙
+    170 - Steel Beam 📙
+    175 - Terrain Pulse 📙
+    176 - Burning Jealousy 📙
+    177 - Flip Turn 📙
+    178 - Grassy Glide 📙
+    179 - Rising Voltage 📙
+    180 - Coaching 📙
+    181 - Scorching Sands 📙
+    182 - Dual Wingbeat 📙
+    183 - Meteor Beam 📙
+    184 - Skitter Smack 📙
+    185 - Triple Axel 📙
+    186 - Corrosive Gas 📙
+    187 - Expanding Force 📙
+    188 - Poltergeist 📙
+    189 - Scale Shot 📙
+    190 - Lash Out 📙
+    191 - Steel Roller 📙
+    192 - Misty Explosion 📙
+    193 - Cut 📕
+    194 - Fly 📕
+    195 - Surf 📕
+    196 - Strength 📕
+    197 - Flash 📕
+    198 - Rock Smash 📕
+    199 - Waterfall 📕
+    200 - Dive 📕
 
 ### New Pokemon -  Check [here](info/BETAMON.md)
 
