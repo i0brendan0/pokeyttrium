@@ -474,7 +474,9 @@
     "TerraCave_End",
     "AlteringCave",
     "MeteorFalls_StevensCave",
-    "HauntedHouseOutside"
+    "HauntedHouseOutside",
+    "Cemetery",
+    "HauntedHouseInside"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
