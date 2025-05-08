@@ -140,6 +140,17 @@
         - Twinz - Beta Girafarig pre-evolution
             - Ghost/Normal
     
+    - https://tcrf.net/Development:Pok%C3%A9mon_Diamond_and_Pearl/Sprites
+        - (UNNAMED) - Beta Gible
+            - Dragon/Bug
+                - Pseudo-Legendary
+        - (UNNAMED) - Beta Gabite
+            - Dragon/Bug
+                - Pseudo-Legendary
+        - (UNNAMED) - Beta Garchomp
+            - Dragon/Bug
+                - Pseudo-Legendary
+    
     - Potentials
         - Beta design for Hoothoot as a regional form
             - To evolve into Owldurn
@@ -153,8 +164,6 @@
         - Designs from Gen 3 sprites
             - https://tcrf.net/Development:Pok%C3%A9mon_Ruby_and_Sapphire/Sprites
         - Designs from Gen 4 sprites
-            - Beta Gible line
-                - Potential Pseudo-legendary
             - https://tcrf.net/Development:Pok%C3%A9mon_Diamond_and_Pearl/Sprites
         - Designs from Gen 5 sprites
             - https://tcrf.net/Development:Pok%C3%A9mon_Black_and_White/Sprites/Pok%C3%A9mon_Sprites

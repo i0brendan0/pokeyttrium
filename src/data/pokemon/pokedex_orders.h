@@ -1102,6 +1102,9 @@ const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_ZYGARDE,
     
     NATIONAL_DEX_x_CELEBI_x, // Unnamed x_MODIFY_x
+    NATIONAL_DEX_x_GIBLE_x, // Unnamed x_MODIFY_x
+    NATIONAL_DEX_x_GABITE_x, // Unnamed x_MODIFY_x
+    NATIONAL_DEX_x_GARCHOMP_x, // Unnamed x_MODIFY_x
 };
 
 const u16 gPokedexOrder_Weight[] =

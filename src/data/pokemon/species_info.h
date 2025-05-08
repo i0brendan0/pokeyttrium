@@ -3419,7 +3419,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .speciesName = _("Woober"),
         .cryId = CRY_WOOPER,
         .natDexNum = NATIONAL_DEX_x_WOOPER_x,
-        .categoryName = _("Woober"),
+        .categoryName = _("Goober"),
         .height = 0, //
         .weight = 0, //
         .description = COMPOUND_STRING( //
@@ -3462,5 +3462,170 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
         .perfectIVCount = 2,
-    }, 
+        .isMythical = TRUE,
+    },
+
+    [SPECIES_x_GIBLE_x] =
+    {
+        .baseHP        = 40,
+        .baseAttack    = 45,
+        .baseDefense   = 45,
+        .baseSpeed     = 58,
+        .baseSpAttack  = 42,
+        .baseSpDefense = 70,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_BUG),
+        .catchRate = 45,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 60 : 67,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 40,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_SAND_VEIL, ABILITY_SAND_VEIL, ABILITY_ROUGH_SKIN }, //
+        .bodyColor = BODY_COLOR_BLUE, //
+        .speciesName = _("Gible"), //
+        .cryId = CRY_GIBLE, //
+        .natDexNum = NATIONAL_DEX_x_GIBLE_x,
+        .categoryName = _("Land Shark"), //
+        .height = 0, //
+        .weight = 0, //
+        .description = COMPOUND_STRING(
+            "It nests in horizontal holes warmed by\n"
+            "geothermal heat. Foes who stray too\n"
+            "close can expect to be pounced on\n"
+            "and bitten."), //
+        .pokemonScale = 256, //
+        .pokemonOffset = 0, //
+        .trainerScale = 256, //
+        .trainerOffset = 0, //
+        .frontPic = gMonFrontPic_x_Gible_x,
+        .frontPicSize = MON_COORDS_SIZE(64, 64), //
+        .frontPicYOffset = 0, //
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder, //
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE, //
+        .backPic = gMonBackPic_x_Gible_x,
+        .backPicSize = MON_COORDS_SIZE(64, 64), //
+        .backPicYOffset = 0, //
+        .backAnimId = BACK_ANIM_NONE, //
+        .palette = gMonPalette_x_Gible_x,
+        .shinyPalette = gMonShinyPalette_x_Gible_x,
+        .iconSprite = gMonIcon_x_Gible_x,
+        .iconPalIndex = 0, //
+        FOOTPRINT(x_Gible_x)
+        .levelUpLearnset = sNoneLevelUpLearnset, //
+        .teachableLearnset = sNoneTeachableLearnset, //
+        .evolutions = EVOLUTION({EVO_LEVEL, 24, SPECIES_x_GABITE_x}),
+    },
+
+    [SPECIES_x_GABITE_x] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 65,
+        .baseDefense   = 55,
+        .baseSpeed     = 68,
+        .baseSpAttack  = 82,
+        .baseSpDefense = 90,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_BUG),
+        .catchRate = 45,
+        .expYield = 144,
+        .evYield_Speed = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 40,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_SAND_VEIL, ABILITY_SAND_VEIL, ABILITY_ROUGH_SKIN }, //
+        .bodyColor = BODY_COLOR_BLUE, //
+        .speciesName = _("Gabite"), //
+        .cryId = CRY_GABITE, //
+        .natDexNum = NATIONAL_DEX_x_GABITE_x,
+        .categoryName = _("Cave"), //
+        .height = 0, //
+        .weight = 0, //
+        .description = COMPOUND_STRING(
+            "Shiny objects are its passion. It can be\n"
+            "found in its cave, scarcely moving,\n"
+            "its gaze fixed on the jewels it's amassed\n"
+            "or Carbink it has caught."),
+        .pokemonScale = 256, //
+        .pokemonOffset = 0, //
+        .trainerScale = 256, //
+        .trainerOffset = 0, //
+        .frontPic = gMonFrontPic_x_Gabite_x,
+        .frontPicSize = MON_COORDS_SIZE(64, 64), //
+        .frontPicYOffset = 0, //
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder, //
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE, //
+        .backPic = gMonBackPic_x_Gabite_x,
+        .backPicSize = MON_COORDS_SIZE(64, 64), //
+        .backPicYOffset = 0, //
+        .backAnimId = BACK_ANIM_NONE, //
+        .palette = gMonPalette_x_Gabite_x,
+        .shinyPalette = gMonShinyPalette_x_Gabite_x,
+        .iconSprite = gMonIcon_x_Gabite_x,
+        .iconPalIndex = 0, //
+        FOOTPRINT(x_Gabite_x)
+        .levelUpLearnset = sNoneLevelUpLearnset, //
+        .teachableLearnset = sNoneTeachableLearnset, //
+        .evolutions = EVOLUTION({EVO_LEVEL, 48, SPECIES_x_GARCHOMP_x}),
+    },
+
+    [SPECIES_x_GARCHOMP_x] =
+    {
+        .baseHP        = 80,
+        .baseAttack    = 95,
+        .baseDefense   = 85,
+        .baseSpeed     = 108,
+        .baseSpAttack  = 102,
+        .baseSpDefense = 130,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_BUG),
+        .catchRate = 45,
+    #if P_UPDATED_EXP_YIELDS >= GEN_8
+        .expYield = 300,
+    #elif P_UPDATED_EXP_YIELDS >= GEN_5
+        .expYield = 270,
+    #else
+        .expYield = 218,
+    #endif
+        .evYield_Speed = 3,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 40,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG, EGG_GROUP_DRAGON),
+        .abilities = { ABILITY_SAND_VEIL, ABILITY_SAND_VEIL, ABILITY_ROUGH_SKIN }, //
+        .bodyColor = BODY_COLOR_BLUE, //
+        .speciesName = _("Garchomp"), //
+        .cryId = CRY_GARCHOMP, //
+        .natDexNum = NATIONAL_DEX_x_GARCHOMP_x,
+        .categoryName = _("Mach"), //
+        .height = 0, //
+        .weight = 0, //
+        .description = COMPOUND_STRING(
+            "When it folds up its body and extends its\n"
+            "wings, it looks like a jet plane. It is\n"
+            "covered in fine scales that reduce drag,\n"
+            "enabling it to fly at high speeds."),
+        .pokemonScale = 256, //
+        .pokemonOffset = 0, //
+        .trainerScale = 256, //
+        .trainerOffset = 0, //
+        .frontPicSize = MON_COORDS_SIZE(64, 64), //
+        .frontPicYOffset = 0, //
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder, //
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE, //
+        .backPic = gMonBackPic_x_Garchomp_x,
+        .backPicSize = MON_COORDS_SIZE(64, 64), //
+        .backPicYOffset = 0, //
+        .backAnimId = BACK_ANIM_NONE, //
+        .palette = gMonPalette_x_Garchomp_x,
+        .shinyPalette = gMonShinyPalette_x_Garchomp_x,
+        .iconSprite = gMonIcon_x_Garchomp_x,
+        .iconPalIndex = 0,
+        FOOTPRINT(x_Garchomp_x)
+        .levelUpLearnset = sNoneLevelUpLearnset, //
+        .teachableLearnset = sNoneTeachableLearnset, //
+    },
+
 };

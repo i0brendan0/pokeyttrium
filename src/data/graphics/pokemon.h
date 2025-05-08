@@ -27188,6 +27188,33 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonFootprint_x_Wooper_x[] = INCBIN_U8("graphics/pokemon/new-x_wooper_x/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
+    const u32 gMonFrontPic_x_Gible_x[] = INCBIN_U32("graphics/pokemon/new-gible/front.4bpp.lz");
+    const u32 gMonPalette_x_Gible_x[] = INCBIN_U32("graphics/pokemon/new-gible/normal.gbapal.lz");
+    const u32 gMonBackPic_x_Gible_x[] = INCBIN_U32("graphics/pokemon/new-gible/back.4bpp.lz");
+    const u32 gMonShinyPalette_x_Gible_x[] = INCBIN_U32("graphics/pokemon/new-gible/shiny.gbapal.lz");
+    const u8 gMonIcon_x_Gible_x[] = INCBIN_U8("graphics/pokemon/new-gible/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_x_Gible_x[] = INCBIN_U8("graphics/pokemon/new-gible/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_x_Gabite_x[] = INCBIN_U32("graphics/pokemon/new-gabite/front.4bpp.lz");
+    const u32 gMonPalette_x_Gabite_x[] = INCBIN_U32("graphics/pokemon/new-gabite/normal.gbapal.lz");
+    const u32 gMonBackPic_x_Gabite_x[] = INCBIN_U32("graphics/pokemon/new-gabite/back.4bpp.lz");
+    const u32 gMonShinyPalette_x_Gabite_x[] = INCBIN_U32("graphics/pokemon/new-gabite/shiny.gbapal.lz");
+    const u8 gMonIcon_x_Gabite_x[] = INCBIN_U8("graphics/pokemon/new-gabite/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_x_Gabite_x[] = INCBIN_U8("graphics/pokemon/new-gabite/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_x_Garchomp_x[] = INCBIN_U32("graphics/pokemon/new-garchomp/front.4bpp.lz");
+    const u32 gMonPalette_x_Garchomp_x[] = INCBIN_U32("graphics/pokemon/new-garchomp/normal.gbapal.lz");
+    const u32 gMonBackPic_x_Garchomp_x[] = INCBIN_U32("graphics/pokemon/new-garchomp/back.4bpp.lz");
+    const u32 gMonShinyPalette_x_Garchomp_x[] = INCBIN_U32("graphics/pokemon/new-garchomp/shiny.gbapal.lz");
+    const u8 gMonIcon_x_Garchomp_x[] = INCBIN_U8("graphics/pokemon/new-garchomp/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_x_Garchomp_x[] = INCBIN_U8("graphics/pokemon/new-garchomp/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
