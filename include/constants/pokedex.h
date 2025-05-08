@@ -912,7 +912,7 @@ enum {
     NATIONAL_DEX_GLASTRIER,
     NATIONAL_DEX_SPECTRIER,
     NATIONAL_DEX_CALYREX,
-    // Custom Starters x_MODIFY_x
+    // Custom Starters
     NATIONAL_DEX_LEFNEKO,
     NATIONAL_DEX_DANDENEKO,
     NATIONAL_DEX_COTTONEKO,
@@ -964,11 +964,11 @@ enum {
     NATIONAL_DEX_GRIMEY,
     NATIONAL_DEX_PUDDI,
     NATIONAL_DEX_x_DUNSPARCE_x,
-    // Custom Legendaries x_MODIFY_x
     // Custom Pseudo-Legendaries
     NATIONAL_DEX_x_GIBLE_x,
     NATIONAL_DEX_x_GABITE_x,
     NATIONAL_DEX_x_GARCHOMP_x,
+    // Custom Legendaries
     NATIONAL_DEX_GOHNG,
     NATIONAL_DEX_x_CELEBI_x,
     // Hisui

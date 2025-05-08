@@ -2,8 +2,8 @@
 
 ## What is this hack
 
-This hack has a completely new region based off of Scandinavia.
-    Introducing the Skåne Region.
+    Introducing the Skåne Region based off of Scandinavia.
+    You play as a Noland (WIP) or Lucy (Not Implemented), a retired Frontier Brain from Hoenn who still wants to be a Pokemon Trainer. You move to a new region where no one really knows who you are. Along the way to completing the regional Pokemon League, you eventually come across a group of individuals who are set on changing the status quo. (Story Not Implemented)
 
 ## Features
 
@@ -45,12 +45,10 @@ This hack has a completely new region based off of Scandinavia.
         - Strength
             - 20% chance to flinch
     - Swarming Pokemon may now hold special items.
-        - (Implemented but no items yet.)
     - Castform gets a Sandy Form.
-        - (Implemented but no sprite yet)
+        - (Front and Back Sprite currently)
     - Hidden Trees. Hidden Grotto-like interactable trees where each day, a Pokemon or item may drop from the tree.
-        - All Hidden Tree Pokemon will have their hidden ability. 
-        - (Implemented but no Pokemon to obtain yet.)
+        - All Hidden Tree Pokemon will have their hidden ability.
     - Certain Pokemon will know moves as a baby just like Pichu and Volt Tackle. 
         - Farfetch'd - Leek - Sky Attack
         - Chansey/Happiny - Lucky Punch - Mach Punch
@@ -75,7 +73,6 @@ This hack has a completely new region based off of Scandinavia.
     - Upon entering the Hall of Fame for the first time, certain locations may have their wild Pokemon change.
         - Will mostly allow non-native Pokemon to be available without jamming them into post-game locations.
     - 18 trainers are scattered throughout the region, one for each type. Defeating them will give a bonus to damage done by their type.
-        - (Implemented but no trainers available yet.)
     - Trainers may give out items after being beaten in a rematch.
     - New Moves
         - Parasomnia
@@ -317,42 +314,59 @@ This hack has a completely new region based off of Scandinavia.
     - PENDING
         - Abra
         - Articuno
+        - Beartic
+        - Beheeyem
         - Blissey
         - Burmy (All forms)
         - Chingling
         - Combusken
-        - Diglett
-        - Dugtrio
+        - Diglett (Kanto)
+        - Dugtrio (Kanto)
+        - Dwebble
         - Elekid
+        - Elgyem
+        - Frillish (Female)
         - Gabite
-        - Gastrodon
+        - Gastrodon (East)
         - Gengar
+        - Gothita
+        - Gothorita
+        - Herdier
         - Igglybuff
+        - Joltik
         - Kadabra
         - Kangaskhan
         - Leafeon
+        - Lillipup
         - Mantyke
-        - Meowth
+        - Meowth (Kanto)
         - Nidoqueen
-        - Persian
+        - Persian (Kanto)
+        - Petilil
         - Pichu
+        - Pidove
         - Pikachu
         - Plusle
         - Poliwag
         - Poliwhirl
+        - Scraggy
         - Scyther
-        - Shellos
+        - Shellos (East)
         - Skitty
         - Smoochum
         - Snorlax
         - Sunkern
         - Togepi
         - Togetic
+        - Tynamo
         - Venonat
         - Wormadam (All forms)
-        - Zapdos
-        - Check Gen 5-8 Pokemon
+        - Zapdos (Kanto)
+        - Check Gen 6-8 Pokemon
 
 Use x_MODIFY_x to find changes for future.
 
 ### [List of pokeemerald Expansion contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)
+
+    - mudskipper for region map code.
+    - kwenio for Noland back and overworld sprites.
