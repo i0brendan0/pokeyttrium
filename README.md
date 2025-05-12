@@ -3,7 +3,12 @@
 ## What is this hack
 
     Introducing the Skåne Region based off of Scandinavia.
-    You play as a Noland (WIP) or Lucy (Not Implemented), a retired Frontier Brain from Hoenn who still wants to be a Pokemon Trainer. You move to a new region where no one really knows who you are. Along the way to completing the regional Pokemon League, you eventually come across a group of individuals who are set on changing the status quo. (Story Not Implemented)
+    You play as a Noland or Lucy (Not Implemented), a retired Frontier Brain from Hoenn who still
+    wants to be a Pokemon Trainer. You move to a new region where no one really knows who you are.
+    Along the way to completing the regional Pokemon League, you eventually come across a group of
+    individuals who are set on changing the status quo. (Story Not Implemented)
+    
+    DUE TO LUCY'S SPRITE DATA NOT BEING IMPLEMENTED, IT IS NOT CURRENTLY POSSIBLE TO PLAY AS LUCY.
 
 ## Features
 
@@ -27,13 +32,16 @@
     - HMs are no longer available. They are replaced with items that function the same.
         - Waterfall doesn't have an item but will be useable after an event unlocks it.
         - Pressing R on the Pokenav will let the player Fly to that town/city.
-    - The unused ability Cacophony has been re-added as an alternative to Punk Rocker. (Potentially remove)
+    - The unused ability Cacophony has been re-added as an alternative to Punk Rocker.
         - Pokemon with Cacophony do 1.5x damage with sound-based moves.
         - Pokemon with Cacophony will get a 10% boost to accuracy with sound-based moves.
         - The Whismur and Kricketot line have Cacophony as their second ability.
+        - Chingling and Chimecho have Cacophony as their Hidden Ability.
+        - Crobat's second ability is Cacophony.
         - Meloetta's Hidden Ability is Cacophony.
     - Pokemon that evolve by trade can now evolve through the use of a Linking Cord.
-    - Pokemon that evolve by trade while holding an item can now evolve through the use of a Linking Cord while holding that item.
+    - Pokemon that evolve by trade while holding an item can now evolve through the use of a
+      Linking Cord while holding that item.
     - Phione evolves into Manaphy at high friendship.
     - Certain moves have changes in type and/or effect.
         - Splash
@@ -47,7 +55,8 @@
     - Swarming Pokemon may now hold special items.
     - Castform gets a Sandy Form.
         - (Front and Back Sprite currently)
-    - Hidden Trees. Hidden Grotto-like interactable trees where each day, a Pokemon or item may drop from the tree.
+    - Hidden Trees. Hidden Grotto-like interactable trees where each day, a Pokemon or item
+      may drop from the tree.
         - All Hidden Tree Pokemon will have their hidden ability.
     - Certain Pokemon will know moves as a baby just like Pichu and Volt Tackle. 
         - Farfetch'd - Leek - Sky Attack
@@ -66,13 +75,17 @@
         - Check Gen 5-8 Pokemon
     - New low-hp type abilities.
     - A baby egg lotto will be available. Basically an updated Odd Egg.
-        - All baby Pokemon will be available in the egg, including a special bonus that has a 2% chance of occuring.
+        - All baby Pokemon will be available in the egg, including a special bonus that has a 2%
+          chance of occuring.
         - Pokemon hatched from the egg have a 16% chance of being shiny.
         - Talk to the egg lady in ___ after entering the Hall of Fame.
             - You'll get a new egg each time you beat the Champion.
-    - Upon entering the Hall of Fame for the first time, certain locations may have their wild Pokemon change.
-        - Will mostly allow non-native Pokemon to be available without jamming them into post-game locations.
-    - 18 trainers are scattered throughout the region, one for each type. Defeating them will give a bonus to damage done by their type.
+    - Upon entering the Hall of Fame for the first time, certain locations may have their wild 
+      Pokemon change.
+        - Will mostly allow non-native Pokemon to be available without jamming them into
+          post-game locations.
+    - 18 trainers are scattered throughout the region, one for each type. Defeating them will give
+      a bonus to damage done by their type.
     - Trainers may give out items after being beaten in a rematch.
     - New Moves
         - Parasomnia
@@ -235,7 +248,8 @@
     - Castform shows its shiny color when transformed.
     - Obedience is increased with each badge.
     - Pickup table has been modified.
-        - Due to this change and that plenty of useful items are now possible to get from Pickup, some pokemon get the Pickup ability.
+        - Due to this change and that plenty of useful items are now possible to get from Pickup,
+          some pokemon get the Pickup ability.
             - Vulpix line
             - Plusle and Minun
             - Starly
@@ -253,8 +267,10 @@
         - Temporary rocks will be added to allow Rock Smash encounters.
     - Pokeballs may give out more than 1 item.
         - Potions, Repels, Pokeballs, Battle Boost Items - 5
-        - Super Potions, Super Repels, Great Balls, Shards, Escape Ropes, Single Status Healing Items - 3
-        - Ethers, Elixirs, Specialty Balls, Revives, Full Heals, Bitter Recovery Items (not including Revival Herb) - 2
+        - Super Potions, Super Repels, Great Balls, Shards, Escape Ropes, Single Status Healing 
+          Items - 3
+        - Ethers, Elixirs, Specialty Balls, Revives, Full Heals, Bitter Recovery Items (not
+          including Revival Herb) - 2
     - If a Pokemon has their hidden ability, it will be highlighted in the summary screen.
     - Text goes faster.
 
@@ -277,11 +293,13 @@
     - Binding damage does 1/16th damage each turn instead of 1/8th.
     - Hidden Power uses IVs to determine power.
     - Rough Skin/Iron Barb damage is 1/16th instead of 1/8th.
-    - Dark Type Pokemon are no longer immune to moves affected by Prankster. Dark types just nullify the priority boost.
+    - Dark Type Pokemon are no longer immune to moves affected by Prankster. Dark types just 
+      nullify the priority boost.
     - Roost will make a pure Flying-type Pokemon typless instead of Normal.
     - Binding moves last for 2-5 turns instead of 4-5 turns.
     - Uproar lasts for 2-5 turns instead of 3 turns.
-    - Hi-Jump Kick does recoil damage based on the damage done, not a flat amount based off the user's HP.
+    - Hi-Jump Kick does recoil damage based on the damage done, not a flat amount based off the 
+      user's HP.
     - Conversion picks a move at random instead of only the first move.
     - Spite reduces PP by 2-5 instead of 4.
     - Sheer Cold has normal accuracy if the user is not Ice type.
@@ -308,61 +326,6 @@
     - Various map edits that involve incorrectly used tiles.
     - New swarms will generate correctly. (Hopefully)
     - Kadabra will not evolve while holding an everstone.
-
-### Shiny Color Changes
-
-    - PENDING
-        - Abra
-        - Articuno
-        - Beartic
-        - Beheeyem
-        - Blissey
-        - Burmy (All forms)
-        - Chingling
-        - Combusken
-        - Diglett (Kanto)
-        - Dugtrio (Kanto)
-        - Dwebble
-        - Elekid
-        - Elgyem
-        - Frillish (Female)
-        - Gabite
-        - Gastrodon (East)
-        - Gengar
-        - Gothita
-        - Gothorita
-        - Herdier
-        - Igglybuff
-        - Joltik
-        - Kadabra
-        - Kangaskhan
-        - Leafeon
-        - Lillipup
-        - Mantyke
-        - Meowth (Kanto)
-        - Nidoqueen
-        - Persian (Kanto)
-        - Petilil
-        - Pichu
-        - Pidove
-        - Pikachu
-        - Plusle
-        - Poliwag
-        - Poliwhirl
-        - Scraggy
-        - Scyther
-        - Shellos (East)
-        - Skitty
-        - Smoochum
-        - Snorlax
-        - Sunkern
-        - Togepi
-        - Togetic
-        - Tynamo
-        - Venonat
-        - Wormadam (All forms)
-        - Zapdos (Kanto)
-        - Check Gen 6-8 Pokemon
 
 Use x_MODIFY_x to find changes for future.
 

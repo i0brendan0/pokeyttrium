@@ -1523,6 +1523,9 @@ static void Task_NewGameBirchSpeech_ChooseGender(u8 taskId)
     int gender = NewGameBirchSpeech_ProcessGenderMenuInput();
     int gender2;
 
+#ifdef ONLY_MALE
+    gender = MALE;
+#endif
     switch (gender)
     {
         case MALE:
