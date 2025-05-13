@@ -5089,6 +5089,26 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 effect++;
             }
             break;
+        case ABILITY_BOMSOAKER:
+            if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_SUN, TRUE) && !(gBattleWeather & B_WEATHER_RAIN_NORMAL))
+            {
+                gBattleStruct->BomsoakerAbilityTriggered = TRUE;
+                BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
+                effect++;
+            }
+            else if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_RAIN, TRUE) && !(gBattleWeather & B_WEATHER_SUN_NORMAL))
+            {
+                gBattleStruct->BomsoakerAbilityTriggered = TRUE;
+                BattleScriptPushCursorAndCallback(BattleScript_DrizzleActivates);
+                effect++;
+            }
+            else if (!gBattleStruct->BomsoakerAbilityTriggered && gBattleWeather & B_WEATHER_PRIMAL_ANY && HasWeatherEffect() && !gSpecialStatuses[battler].switchInAbilityDone)
+            {
+                gSpecialStatuses[battler].switchInAbilityDone = TRUE;
+                BattleScriptPushCursorAndCallback(BattleScript_BlockedByPrimalWeatherEnd3);
+                effect++;
+            }
+            break;
         case ABILITY_SUPERSWEET_SYRUP:
             if (!gSpecialStatuses[battler].switchInAbilityDone
                     && !(gBattleStruct->supersweetSyrup[GetBattlerSide(battler)] & (1u << gBattlerPartyIndexes[battler])))
@@ -5456,6 +5476,22 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 {
                     SET_STATCHANGER(STAT_SPEED, 1, FALSE);
                     BattleScriptPushCursorAndCallback(BattleScript_SpeedBoostActivates);
+                    gBattleScripting.battler = battler;
+                    effect++;
+                }
+                break;
+            case ABILITY_BOMSOAKER:
+                if (!gBattleStruct->BomsoakerAbilityTriggered && gBattleWeather & B_WEATHER_SUN_NORMAL)
+                {
+                    gBattleStruct->BomsoakerAbilityTriggered = TRUE;
+                    BattleScriptPushCursorAndCallback(BattleScript_DrizzleActivates);
+                    gBattleScripting.battler = battler;
+                    effect++;
+                }
+                else if (!gBattleStruct->BomsoakerAbilityTriggered && gBattleWeather & B_WEATHER_RAIN_NORMAL)
+                {
+                    gBattleStruct->BomsoakerAbilityTriggered = TRUE;
+                    BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
                     gBattleScripting.battler = battler;
                     effect++;
                 }

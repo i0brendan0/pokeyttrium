@@ -2514,4 +2514,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 5,
     },
 
+    [ABILITY_BOMSOAKER] =
+    {
+        .name = _("Bomsoaker"),
+        .description = COMPOUND_STRING("Swaps Rain and Sunlight."),
+        .aiRating = 5,
+    },
+
 };
