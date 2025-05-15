@@ -132,7 +132,8 @@ struct DisableStruct
     u8 unburdenActive:1;
     u8 neutralizingGas:1;
     u8 iceFaceActivationPrevention:1; // fixes hit escape move edge case
-    u8 padding:3;
+    u8 activatedKurstraw:1;
+    u8 padding:2;
 };
 
 // Fully Cleared each turn after end turn effects are done. A few things are cleared before end turn effects

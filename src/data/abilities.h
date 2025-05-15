@@ -2521,4 +2521,11 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
         .aiRating = 5,
     },
 
+    [ABILITY_KURSTRAW] =
+    {
+        .name = _("Kurstraw"),
+        .description = COMPOUND_STRING("Curses on contact."),
+        .aiRating = 5,
+    },
+
 };

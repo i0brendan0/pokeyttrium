@@ -5753,6 +5753,23 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
                 effect++;
             }
             break;
+        case ABILITY_KURSTRAW:
+            if (!(gBattleStruct->moveResultFlags[battler] & MOVE_RESULT_NO_EFFECT)
+             && IsBattlerAlive(gBattlerAttacker)
+             && IsBattlerTurnDamaged(gBattlerTarget)
+             && GetBattlerHoldEffect(gBattlerAttacker, TRUE) != HOLD_EFFECT_PROTECTIVE_PADS
+             && !(gBattleMons[gBattlerAttacker].status2 & STATUS2_CURSED)
+             && IsMoveMakingContact(move, gBattlerAttacker)
+             && !(GetActiveGimmick(gBattlerAttacker) == GIMMICK_DYNAMAX) // TODO: Max Moves don't make contact, useless?
+             && !(gDisableStruct[gBattlerTarget].activatedKurstraw)
+             && RandomPercentage(RNG_CURSED_BODY, 30))
+            {
+                gDisableStruct[gBattlerTarget].activatedKurstraw = TRUE;
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_KurstrawActivates;
+                effect++;
+            }
+            break;
         case ABILITY_LINGERING_AROMA:
         case ABILITY_MUMMY:
             if (!(gBattleStruct->moveResultFlags[battler] & MOVE_RESULT_NO_EFFECT)
