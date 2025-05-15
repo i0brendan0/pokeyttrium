@@ -5090,16 +5090,30 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
             }
             break;
         case ABILITY_BOMSOAKER:
-            if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_SUN, TRUE) && !(gBattleWeather & B_WEATHER_RAIN_NORMAL))
+            if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_SUN, TRUE) && !(gBattleWeather & B_WEATHER_RAIN_NORMAL)
+            && !gSpecialStatuses[battler].switchInAbilityDone
+            && (Random() % 1))
             {
+                gSpecialStatuses[battler].switchInAbilityDone = TRUE;
                 gBattleStruct->BomsoakerAbilityTriggered = TRUE;
                 BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
                 effect++;
             }
-            else if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_RAIN, TRUE) && !(gBattleWeather & B_WEATHER_SUN_NORMAL))
+            else if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_RAIN, TRUE) && !(gBattleWeather & B_WEATHER_SUN_NORMAL)
+            && !gSpecialStatuses[battler].switchInAbilityDone)
             {
+                gSpecialStatuses[battler].switchInAbilityDone = TRUE;
                 gBattleStruct->BomsoakerAbilityTriggered = TRUE;
                 BattleScriptPushCursorAndCallback(BattleScript_DrizzleActivates);
+                effect++;
+            }
+            // fallback
+            else if (!gBattleStruct->BomsoakerAbilityTriggered && TryChangeBattleWeather(battler, BATTLE_WEATHER_SUN, TRUE) && !(gBattleWeather & B_WEATHER_RAIN_NORMAL)
+            && !gSpecialStatuses[battler].switchInAbilityDone)
+            {
+                gSpecialStatuses[battler].switchInAbilityDone = TRUE;
+                gBattleStruct->BomsoakerAbilityTriggered = TRUE;
+                BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
                 effect++;
             }
             else if (!gBattleStruct->BomsoakerAbilityTriggered && gBattleWeather & B_WEATHER_PRIMAL_ANY && HasWeatherEffect() && !gSpecialStatuses[battler].switchInAbilityDone)
@@ -5761,10 +5775,10 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
              && !(gBattleMons[gBattlerAttacker].status2 & STATUS2_CURSED)
              && IsMoveMakingContact(move, gBattlerAttacker)
              && !(GetActiveGimmick(gBattlerAttacker) == GIMMICK_DYNAMAX) // TODO: Max Moves don't make contact, useless?
-             && !(gDisableStruct[gBattlerTarget].activatedKurstraw)
+             && !(gDisableStructs[gBattlerTarget].activatedKurstraw)
              && RandomPercentage(RNG_CURSED_BODY, 30))
             {
-                gDisableStruct[gBattlerTarget].activatedKurstraw = TRUE;
+                gDisableStructs[gBattlerTarget].activatedKurstraw = TRUE;
                 BattleScriptPushCursor();
                 gBattlescriptCurrInstr = BattleScript_KurstrawActivates;
                 effect++;
