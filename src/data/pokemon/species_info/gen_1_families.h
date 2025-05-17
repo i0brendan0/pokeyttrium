@@ -8780,8 +8780,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sWeepinbellLevelUpLearnset,
         .teachableLearnset = sWeepinbellTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_VICTREEBEL}),
-        //.evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_BELMITT}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_VICTREEBEL},
+        {EVO_ITEM, ITEM_MOON_STONE, SPECIES_BELMITT}),
     },
 
     [SPECIES_VICTREEBEL] =
@@ -10507,7 +10507,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sFarfetchdTeachableLearnset,
         .eggMoveLearnset = sFarfetchdEggMoveLearnset,
         .formSpeciesIdTable = sFarfetchdFormSpeciesIdTable,
-        //.evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 34, SPECIES_MADAME}),
+        .evolutions = EVOLUTION({EVO_LEVEL_FEMALE, 33, SPECIES_MADAME}),
     },
 
 #if P_GALARIAN_FORMS
@@ -14269,8 +14269,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sTangelaLevelUpLearnset,
         .teachableLearnset = sTangelaTeachableLearnset,
         .eggMoveLearnset = sTangelaEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_MOVE, MOVE_ANCIENT_POWER, SPECIES_TANGROWTH}),
-                                //{EVO_ITEM, ITEM_DUSK_STONE, SPECIES_TANGRATH}),
+        .evolutions = EVOLUTION({EVO_MOVE, MOVE_ANCIENT_POWER, SPECIES_TANGROWTH},
+                                {EVO_ITEM, ITEM_DUSK_STONE, SPECIES_TANGRATH}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -17957,9 +17957,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sPorygon2LevelUpLearnset,
         .teachableLearnset = sPorygon2TeachableLearnset,
         .evolutions = EVOLUTION({EVO_TRADE_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z},
-                                {EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}),
-                                //{EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_PORYGON_C},
-                                //{EVO_ITEM, ITEM_METAL_COAT, SPECIES_PORYGON_C}),
+                                {EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z},
+                                {EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_PORYGON_C},
+                                {EVO_ITEM, ITEM_METAL_COAT, SPECIES_PORYGON_C}),
     },
 
 #if P_GEN_4_CROSS_EVOS

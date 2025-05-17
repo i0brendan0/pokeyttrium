@@ -97,6 +97,16 @@
         - Sheer Freeze
             - Ice Type
             - Variation of Dynamic Punch, Inferno, Zap Cannon, but freezes.
+    - New Abilities
+        - UNNAMED
+            - Bomsoaker's signature ability
+               - When it starts the battle or is switched in, it randomly sets the weather to rain or sun if it is not already.
+            - At the end of each turn except the first turn or the turn it was switched in, if it's still raining or is sunny, it changes the weather to the other.
+            - Only one ability takes effect each turn.
+        - UNNAMED
+            - Kurstraw and Panghshi's signature ability
+            - If dealt damage by a contact move, there's a chance they will curse the attacker.
+            - Only triggers once unless they switch out.
     - Talking to a specific NPC will allow you to keep a Pokemon from evolving.
         - Only stops evolutions that involve leveling up.
         - Talking to them again will re-enable evolution.
@@ -323,9 +333,8 @@
 
     - RNG will now be seeded like it should.
     - Pokedex entries will not show without the Pokedex.
-    - Various map edits that involve incorrectly used tiles.
     - New swarms will generate correctly. (Hopefully)
-    - Kadabra will not evolve while holding an everstone.
+    - Kadabra will now evolve while holding an everstone.
 
 Use x_MODIFY_x to find changes for future.
 
@@ -333,3 +342,9 @@ Use x_MODIFY_x to find changes for future.
 
     - mudskipper for region map code.
     - kwenio for Noland back and overworld sprites.
+    - PurrfectDoodle for Kotora sprites.
+    - Oomer for Puddi icon and footprint.
+    - Oomer for Kotora footprint.
+    - TibJib for various [Beta Gen 2 revamps](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/tree/main/Pokemon/Beta%20Revamps/TibJib).
+        - Extra credits included in link
+    - aethestode for other [Beta Gen 2 sprites](https://www.deviantart.com/aethestode/art/Spaceworld-Demo-Beta-Pokemon-Sprites-Revamped-856667682).

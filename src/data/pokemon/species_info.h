@@ -336,7 +336,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_STRONG_JAW, ABILITY_SNIPER },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Anchorage"),
         .cryId = CRY_NONE, //
@@ -361,21 +361,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Anchorage,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Anchorage, //
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Anchorage, //
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Anchorage, //
-        .shinyPaletteFemale = gMonShinyPalette_Anchorage, //
-        .iconSpriteFemale = gMonIcon_Anchorage, //
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Anchorage,
         .shinyPalette = gMonShinyPalette_Anchorage,
         .iconSprite = gMonIcon_Anchorage,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Anchorage)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -454,7 +444,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_TORRENT, ABILITY_TORRENT, ABILITY_TORRENT }, //
+        .abilities = { ABILITY_TORRENT, ABILITY_TORRENT, ABILITY_MAGIC_BOUNCE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Aquaria"),
         .cryId = CRY_NONE, //
@@ -479,21 +469,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Aquaria,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Aquaria, //
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Aquaria, //
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Aquaria, //
-        .shinyPaletteFemale = gMonShinyPalette_Aquaria, //
-        .iconSpriteFemale = gMonIcon_Aquaria, //
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Aquaria,
         .shinyPalette = gMonShinyPalette_Aquaria,
         .iconSprite = gMonIcon_Aquaria,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 4,
         FOOTPRINT(Aquaria)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -517,7 +497,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_TORRENT, ABILITY_TORRENT, ABILITY_TORRENT }, //
+        .abilities = { ABILITY_TORRENT, ABILITY_TORRENT, ABILITY_MAGIC_BOUNCE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Aquis"),
         .cryId = CRY_NONE, //
@@ -542,21 +522,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Aquis,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Aquis, //
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Aquis,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Aquis,
-        .shinyPaletteFemale = gMonShinyPalette_Aquis,
-        .iconSpriteFemale = gMonIcon_Aquis,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Aquis,
         .shinyPalette = gMonShinyPalette_Aquis,
         .iconSprite = gMonIcon_Aquis,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Aquis)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -581,7 +551,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_LIMBER, ABILITY_CACOPHONY, ABILITY_MAGICIAN },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Belloyant"),
         .cryId = CRY_NONE, //
@@ -606,21 +576,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Belloyant,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Belloyant,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Belloyant,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Belloyant,
-        .shinyPaletteFemale = gMonShinyPalette_Belloyant,
-        .iconSpriteFemale = gMonIcon_Belloyant,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Belloyant,
         .shinyPalette = gMonShinyPalette_Belloyant,
         .iconSprite = gMonIcon_Belloyant,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Belloyant)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -669,21 +629,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Belmitt,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Belmitt,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Belmitt,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Belmitt,
-        .shinyPaletteFemale = gMonShinyPalette_Belmitt,
-        .iconSpriteFemale = gMonIcon_Belmitt,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Belmitt,
         .shinyPalette = gMonShinyPalette_Belmitt,
         .iconSprite = gMonIcon_Belmitt,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 5,
         FOOTPRINT(Belmitt)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -706,7 +656,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_HEALER, ABILITY_REGENERATOR, ABILITY_TRIAGE },
         .bodyColor = BODY_COLOR_GREEN,
         .speciesName = _("Blossomole"),
         .cryId = CRY_NONE, //
@@ -745,7 +695,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Blossomole,
         .shinyPalette = gMonShinyPalette_Blossomole,
         .iconSprite = gMonIcon_Blossomole,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Blossomole)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -768,7 +718,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1, EGG_GROUP_FIELD),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_BLAZE, ABILITY_TORRENT, ABILITY_BOMSOAKER },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Bomsoaker"),
         .cryId = CRY_NONE, //
@@ -807,7 +757,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Bomsoaker,
         .shinyPalette = gMonShinyPalette_Bomsoaker,
         .iconSprite = gMonIcon_Bomsoaker,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Bomsoaker)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -919,21 +869,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Cottoneko,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Cottoneko,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Cottoneko,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Cottoneko,
-        .shinyPaletteFemale = gMonShinyPalette_Cottoneko,
-        .iconSpriteFemale = gMonIcon_Cottoneko,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Cottoneko,
         .shinyPalette = gMonShinyPalette_Cottoneko,
         .iconSprite = gMonIcon_Cottoneko,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Cottoneko)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -956,7 +896,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_1), //
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_TORRENT, ABILITY_TORRENT, ABILITY_MAGIC_BOUNCE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Cruz"),
         .cryId = CRY_NONE, //
@@ -981,21 +921,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Cruz,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Cruz,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Cruz,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Cruz,
-        .shinyPaletteFemale = gMonShinyPalette_Cruz,
-        .iconSpriteFemale = gMonIcon_Cruz,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Cruz,
         .shinyPalette = gMonShinyPalette_Cruz,
         .iconSprite = gMonIcon_Cruz,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Cruz)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1108,21 +1038,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Dynabear,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Dynabear,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Dynabear,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Dynabear,
-        .shinyPaletteFemale = gMonShinyPalette_Dynabear,
-        .iconSpriteFemale = gMonIcon_Dynabear,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Dynabear,
         .shinyPalette = gMonShinyPalette_Dynabear,
         .iconSprite = gMonIcon_Dynabear,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Dynabear)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1170,21 +1090,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Flambear,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Flambear,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Flambear,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Flambear,
-        .shinyPaletteFemale = gMonShinyPalette_Flambear,
-        .iconSpriteFemale = gMonIcon_Flambear,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Flambear,
         .shinyPalette = gMonShinyPalette_Flambear,
         .iconSprite = gMonIcon_Flambear,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Flambear)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1209,7 +1119,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_MOLD_BREAKER, ABILITY_MOLD_BREAKER, ABILITY_PROTEAN },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Gohng"),
         .cryId = CRY_NONE, //
@@ -1338,7 +1248,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_STENCH, ABILITY_STICKY_HOLD, ABILITY_AFTERMATH }, //
+        .abilities = { ABILITY_STENCH, ABILITY_STICKY_HOLD, ABILITY_AFTERMATH },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Grimey"),
         .cryId = CRY_NONE, //
@@ -1427,21 +1337,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Grotess,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Grotess,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Grotess,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Grotess,
-        .shinyPaletteFemale = gMonShinyPalette_Grotess,
-        .iconSpriteFemale = gMonIcon_Grotess,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Grotess,
         .shinyPalette = gMonShinyPalette_Grotess,
         .iconSprite = gMonIcon_Grotess,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Grotess)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1489,25 +1389,15 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Kotora,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Kotora,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Kotora,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Kotora,
-        .shinyPaletteFemale = gMonShinyPalette_Kotora,
-        .iconSpriteFemale = gMonIcon_Kotora,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Kotora,
         .shinyPalette = gMonShinyPalette_Kotora,
         .iconSprite = gMonIcon_Kotora,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Kotora)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RAITORA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_RAITORA}),
     },
     
     [SPECIES_KURSTRAW] =
@@ -1529,7 +1419,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_CURSED_BODY, ABILITY_CURSED_BODY, ABILITY_KURSTRAW },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Kurstraw"),
         .cryId = CRY_NONE, //
@@ -1554,21 +1444,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Kurstraw,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Kurstraw,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Kurstraw,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Kurstraw,
-        .shinyPaletteFemale = gMonShinyPalette_Kurstraw,
-        .iconSpriteFemale = gMonIcon_Kurstraw,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Kurstraw,
         .shinyPalette = gMonShinyPalette_Kurstraw,
         .iconSprite = gMonIcon_Kurstraw,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Kurstraw)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1635,7 +1515,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         FOOTPRINT(Lefneko)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_DANDENEKO}), //
+        .evolutions = EVOLUTION({EVO_LEVEL, 17, SPECIES_DANDENEKO}), //
     },
     
     [SPECIES_MADAME] =
@@ -1652,7 +1532,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .evYield_Attack = 1,
         .evYield_Speed = 1,
         .itemRare = ITEM_LEEK,
-        .genderRatio = PERCENT_FEMALE(50),
+        .genderRatio = MON_FEMALE,
         .eggCycles = 20,
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
@@ -1682,21 +1562,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Madame,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Madame,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Madame,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Madame,
-        .shinyPaletteFemale = gMonShinyPalette_Madame,
-        .iconSpriteFemale = gMonIcon_Madame,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Madame,
         .shinyPalette = gMonShinyPalette_Madame,
         .iconSprite = gMonIcon_Madame,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Madame)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1745,21 +1615,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Meowsy,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Meowsy,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Meowsy,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Meowsy,
-        .shinyPaletteFemale = gMonShinyPalette_Meowsy,
-        .iconSpriteFemale = gMonIcon_Meowsy,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Meowsy,
         .shinyPalette = gMonShinyPalette_Meowsy,
         .iconSprite = gMonIcon_Meowsy,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Meowsy)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1875,21 +1735,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Numpuff,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Numpuff,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Numpuff,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Numpuff,
-        .shinyPaletteFemale = gMonShinyPalette_Numpuff,
-        .iconSpriteFemale = gMonIcon_Numpuff,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Numpuff,
         .shinyPalette = gMonShinyPalette_Numpuff,
         .iconSprite = gMonIcon_Numpuff,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Numpuff)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1937,21 +1787,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Owldurn,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Owldurn,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Owldurn,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Owldurn,
-        .shinyPaletteFemale = gMonShinyPalette_Owldurn,
-        .iconSpriteFemale = gMonIcon_Owldurn,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Owldurn,
         .shinyPalette = gMonShinyPalette_Owldurn,
         .iconSprite = gMonIcon_Owldurn,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Owldurn)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -1976,7 +1816,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS, EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_CURSED_BODY, ABILITY_CURSED_BODY, ABILITY_KURSTRAW },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Pangshi"),
         .cryId = CRY_NONE, //
@@ -2001,21 +1841,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Pangshi,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Pangshi,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Pangshi,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Pangshi,
-        .shinyPaletteFemale = gMonShinyPalette_Pangshi,
-        .iconSpriteFemale = gMonIcon_Pangshi,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Pangshi,
         .shinyPalette = gMonShinyPalette_Pangshi,
         .iconSprite = gMonIcon_Pangshi,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Pangshi)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2041,7 +1871,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_EFFECT_SPORE, ABILITY_ANTICIPATION, ABILITY_DAMP }, //
+        .abilities = { ABILITY_EFFECT_SPORE, ABILITY_ANTICIPATION, ABILITY_DAMP },
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Para"),
         .cryId = CRY_NONE, //
@@ -2129,21 +1959,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Plux,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7,
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Plux,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Plux,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Plux,
-        .shinyPaletteFemale = gMonShinyPalette_Plux,
-        .iconSpriteFemale = gMonIcon_Plux,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Plux,
         .shinyPalette = gMonShinyPalette_Plux,
         .iconSprite = gMonIcon_Plux,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Plux)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2243,21 +2063,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Puddi,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Puddi,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Puddi,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Puddi,
-        .shinyPaletteFemale = gMonShinyPalette_Puddi,
-        .iconSpriteFemale = gMonIcon_Puddi,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Puddi,
         .shinyPalette = gMonShinyPalette_Puddi,
         .iconSprite = gMonIcon_Puddi,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Puddi)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2306,21 +2116,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Raitora,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Raitora,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Raitora,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Raitora,
-        .shinyPaletteFemale = gMonShinyPalette_Raitora,
-        .iconSpriteFemale = gMonIcon_Raitora,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Raitora,
         .shinyPalette = gMonShinyPalette_Raitora,
         .iconSprite = gMonIcon_Raitora,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Raitora)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2368,21 +2168,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Rayleep,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Rayleep,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Rayleep,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Rayleep,
-        .shinyPaletteFemale = gMonShinyPalette_Rayleep,
-        .iconSpriteFemale = gMonIcon_Rayleep,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Rayleep,
         .shinyPalette = gMonShinyPalette_Rayleep,
         .iconSprite = gMonIcon_Rayleep,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Rayleep)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2405,7 +2195,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_LIMBER, ABILITY_CACOPHONY, ABILITY_MAGICIAN },
         .bodyColor = BODY_COLOR_BLACK, //
         .speciesName = _("Rinring"),
         .cryId = CRY_NONE, //
@@ -2430,25 +2220,15 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Rinring,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Rinring,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Rinring,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Rinring,
-        .shinyPaletteFemale = gMonShinyPalette_Rinring,
-        .iconSpriteFemale = gMonIcon_Rinring,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Rinring,
         .shinyPalette = gMonShinyPalette_Rinring,
         .iconSprite = gMonIcon_Rinring,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Rinring)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
-        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_BELLOYANT}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_BELLOYANT}),
     },
     
     [SPECIES_SUNMOLA] =
@@ -2468,7 +2248,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_WATER_2, EGG_GROUP_MONSTER),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_SWIFT_SWIM, ABILITY_SWIFT_SWIM, ABILITY_DAMP }, //
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Sunmola"),
         .cryId = CRY_NONE, //
@@ -2493,21 +2273,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Sunmola,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Sunmola,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Sunmola,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Sunmola,
-        .shinyPaletteFemale = gMonShinyPalette_Sunmola,
-        .iconSpriteFemale = gMonIcon_Sunmola,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Sunmola,
         .shinyPalette = gMonShinyPalette_Sunmola,
         .iconSprite = gMonIcon_Sunmola,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Sunmola)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2620,21 +2390,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Tangel,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Tangel,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Tangel,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Tangel,
-        .shinyPaletteFemale = gMonShinyPalette_Tangel,
-        .iconSpriteFemale = gMonIcon_Tangel,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Tangel,
         .shinyPalette = gMonShinyPalette_Tangel,
         .iconSprite = gMonIcon_Tangel,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 1,
         FOOTPRINT(Tangel)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2683,21 +2443,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Tangrath,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Tangrath,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Tangrath,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Tangrath,
-        .shinyPaletteFemale = gMonShinyPalette_Tangrath,
-        .iconSpriteFemale = gMonIcon_Tangrath,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Tangrath,
         .shinyPalette = gMonShinyPalette_Tangrath,
         .iconSprite = gMonIcon_Tangrath,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Tangrath)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2786,7 +2536,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_SOLID_ROCK, ABILITY_ROCK_HEAD, ABILITY_STURDY },
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Turbann"),
         .cryId = CRY_NONE, //
@@ -2849,7 +2599,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_CONTRARY, ABILITY_NO_GUARD, ABILITY_PARENTAL_BOND },
         .bodyColor = BODY_COLOR_BLACK,
         .speciesName = _("Twinz"),
         .cryId = CRY_NONE, //
@@ -2874,21 +2624,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Twinz,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Twinz,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Twinz,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Twinz,
-        .shinyPaletteFemale = gMonShinyPalette_Twinz,
-        .iconSpriteFemale = gMonIcon_Twinz,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Twinz,
         .shinyPalette = gMonShinyPalette_Twinz,
         .iconSprite = gMonIcon_Twinz,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 2,
         FOOTPRINT(Twinz)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2937,21 +2677,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Volbear,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Volbear,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Volbear,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Volbear,
-        .shinyPaletteFemale = gMonShinyPalette_Volbear,
-        .iconSpriteFemale = gMonIcon_Volbear,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Volbear,
         .shinyPalette = gMonShinyPalette_Volbear,
         .iconSprite = gMonIcon_Volbear,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Volbear)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -2975,7 +2705,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_THICK_FAT, ABILITY_SNOW_CLOAK, ABILITY_SLUSH_RUSH },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Warwolf"),
         .cryId = CRY_NONE, //
@@ -3000,21 +2730,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Warwolf,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Warwolf,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Warwolf,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Warwolf,
-        .shinyPaletteFemale = gMonShinyPalette_Warwolf,
-        .iconSpriteFemale = gMonIcon_Warwolf,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Warwolf,
         .shinyPalette = gMonShinyPalette_Warwolf,
         .iconSprite = gMonIcon_Warwolf,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Warwolf)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -3100,7 +2820,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_FAIRY),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_THICK_FAT, ABILITY_SNOW_CLOAK, ABILITY_SLUSH_RUSH },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Wolfman"),
         .cryId = CRY_NONE, //
@@ -3125,21 +2845,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Wolfman,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Wolfman,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Wolfman,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Wolfman,
-        .shinyPaletteFemale = gMonShinyPalette_Wolfman,
-        .iconSpriteFemale = gMonIcon_Wolfman,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Wolfman,
         .shinyPalette = gMonShinyPalette_Wolfman,
         .iconSprite = gMonIcon_Wolfman,
-        .iconPalIndex = 0, //
+        .iconPalIndex = 0,
         FOOTPRINT(Wolfman)
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
@@ -3225,7 +2935,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_NONE, ABILITY_CURSED_BODY, ABILITY_DAMP }, //
+        .abilities = { ABILITY_IRON_BARBS, ABILITY_IRON_BARBS, ABILIT_SERENE_GRACE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("CelebiX"), // x_MODIFY_x
         .cryId = CRY_NONE, //
@@ -3627,5 +3337,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
     },
+    // hoothoot uses palette 2
 
 };

@@ -34,3 +34,104 @@
 - Mime Jr.
     - Evolves into Kanto Mr. Mime knowing Mimic.
     - Evolves into Galarian Mr. Mime knowing an Ice type move.
+
+- Lefneko
+    - Evolves into Dandenoko at level 17
+
+- Dandeneko
+    - Evolves into Cottoneko at level 34
+
+- Flambear
+    - Evolves into Volbear at level 17
+
+- Volbear
+    - Evolves into Dynabear at level 34
+    
+- Cruz
+    - Evolves into Aquis at level 17
+    
+- Aquis
+    - Evolves into Aquaria at level 34
+
+- Hoothoot - Skåne Regional Variant
+    - Evolves into Owldurn at level #
+
+- Tangel
+    - Evolves into Tangela with high friendship
+
+- Tangela
+    - Evolves into Tangrowth at level up while knowing Ancient Power
+    - Evolves into Tangrath with the use of a Dusk Stone
+
+- Qwilfish
+    - Evolves into Numpuff with the use of a Water Stone
+    
+- Golpy
+    - Evolves into Goldeen with high friendship
+
+- Sunmola
+    - Evolves into Anchorage ???
+    - Evolves into Grotess ???
+
+- Para
+    - Evolves into Paras with high friendship
+
+- Ditto
+    - Evolves into Animon with the use of a Metal Coat
+
+- Chiks
+    - Evolves into Doduo with high friendship
+
+- Rinring
+    - Evolves into Belloyant at level 30
+
+- Puddi
+    - Evolves into Growlithe with high friendship
+
+- Weepinbell
+    - Evolves into Victreebel with the use of a Leaf Stone
+    - Evolves into Belmitt with the use of a Moon Stone
+
+- Kotora
+    - Evolves into Raitora at level 30
+
+- Farfetch'd - Kantonian Regional Variant
+    - Evolves into Madame at level 33 (Female only)
+
+- Kurstraw
+    - Evolves into Pangshi every 10 levels
+
+- Pangshi
+    - Evolves into Kurstraw every 10 levels
+
+- Wolfman
+    - Evolves into Warwolf with the use of an Ice Stone
+
+- Porygon-2
+    - Evolves into Porygon-Z with the use of a Dubious Disc
+    - Evolves into Porygon-C with the use of a Metal Coat
+
+- Dunslet
+    - Evolves into Dunsparce with high friendship
+
+- Sneasel
+    - Evolves into Weavile at level up holding a Razor Claw at night
+    - Evolves into Swievel ???
+
+- Marill
+    - Evolves into Azumarill at level 18
+    - Evolves into Kiromarill ???
+
+- Gligar
+    - Evolves into Gliscor at level up holding a Razor Fang at night
+    - Evolves into Stingbat ???
+
+- Chansey
+    - Evolves into Blissey at high friendship
+    - Evolves into Whimsey ???
+
+- [ Beta Gible ]
+    - Evolves into Beta Gabite ???
+
+- [ Beta Gabite ]
+    - Evolves into Beta Garchomp ???

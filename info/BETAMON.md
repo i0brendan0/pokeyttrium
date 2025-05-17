@@ -1,160 +1,155 @@
-    - Gen 2 - https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1997_Demo/Pok%C3%A9mon
-        - Lefneko - Beta Hoppip line
-            - Grass
-        - Dandeneko
-            - Grass/Fairy
-                - Evolve Lefneko - Level up
-        - Cottoneko
-            - Grass/Fairy
-                - Evolve Dandeneko - Level up
-        - Flambear - Beta Fire type starter line
-            - Fire
-        - Volbear
-            - Fire
-                - Evolve Flambear - Level up
-        - Dynabear
-            - Fire
-                - Evolve Volbear - Level up
-        - Cruz - Beta Water type starter line
-            - Water
-        - Aquis
-            - Water
-                - Evolve Cruz - Level up
-        - Aquaria
-            - Water
-                - Evolve Aquis - Level up
-        - Blossomole - Beta Bayleef
-            - Grass/Fairy
-        - Owldurn - Beta Noctowl
-            - Normal/Flying
-                - Evolve Hoothoot - Wurmple evolution
-        - Trifox - Beta Vulpix baby
-            - Fire
-                - Baby Vulpix
-        - Tangel - Beta Tangela baby
-            - Grass
-                - Tangela Baby
-        - Tangrath - Beta Tangrowth
-            - Grass/Dark
-                - Evolve Tangela - ??? (can't be level up)
-        - Rayleep - Beta Mantine
-            - Water/Fairy
-        - Numpuff - Beta Qwilfish evolution
-            - Water/Poison
-                - Evolve Qwilfish - Water Stone
-        - Golpy - Beta Goldeen baby
-            - Water
-                - Baby Goldeen
-        - Sunmola
-            - Water
-        - Anchorage
-            - Water/Steel
-                - Evolve Sunmola - ???
-        - Grotess - Beta sunfish line 
-            - Water/Dark
-                - Evolve Sunmola - ???
-        - Para - Beta Paras baby
-            - Bug
-                - Baby Paras
-        - Animon - Beta Ditto evolution
-            - Normal/Steel
-                - Evolve Ditto - Metal Coat + Trade
-        - Chiks - Beta Doduo baby
-            - Normal
-                - Baby Doduo
-        - Meowsy - Beta Meowth baby
-            - Normal
-                - Baby Meowth
-                - Evolves into Kantonian Meowth with high friendship during the day.
-                - Evolves into Alolan Meowth with high friendship during the night.
-                - Evolves into Galarian Meowth with Metal Coat + Trade.
-        - Rinring - Beta dark cat line
-            - Dark/Fairy
-        - Belloyant
-            - Dark/Fairy
-                - Evolve Rinring - ???
-        - Minicorn - Beta Ponyta baby
-            - Fire
-                - Baby Ponyta
-        - Turbann - Beta Slowbro shell pokemon
-            - Rock
-        - Grimey - Beta Grimer baby
-            - Poison
-                - Baby Grimer
-        - Gohng - Beta Tyrogue
-            - Fighting/Fairy
-                - Legendary Pokemon
-        - Puddi - Beta Growlithe baby
-            - Fire
-                - Baby Growlithe
-        - Belmitt - Beta Weepinbell branching evolution
-            - Grass/Fighting
-                - Evolve Weepinbell - Moon Stone
-        - Bomsoaker - Beta seal Pokemon
-            - Fire/Water
-        - Kotora - Beta electric tiger line
-            - Electric
-        - Raitora
-            - Electric
-                - Evolve Kotora - ???
-        - Madame - Beta Farfetch'd evolution
-            - Normal/Flying
-                - Evolve Farfetch'd - ??? (Female Only)
-        - Kurstraw - Beta Ghost line
-            - Ghost
-                - Evolve Pangshi - Evolves every 10 levels
-        - Pangshi
-            - Ghost
-                - Evolve Kurstraw - Evolves every 10 levels
-        - Plux - Beta Pinsir Evolution
-            - Bug/Dark
-        - Wolfman - Beta Ice wolf line
-            - Ice/Normal
-        - Warwolf
-            - Ice/Normal
-                - Evolve Wolfman - Ice Stone
-        - Porygon-C - Beta Porygon-2
-            - Steel
-                - Evolve Porygon-2 - Metal Coat + Trade
-    - https://tcrf.net/Proto:Pok%C3%A9mon_Gold_and_Silver/Spaceworld_1999_Demo/Pok%C3%A9mon
-        - Dunslet - Beta Dunsparce
-            - Normal
-                - Baby Dunsparce
-        - Swievel - Beta Sneasel
-            - Normal/Ice
-        - (UNNAMED) - Beta Celebi
-            - Steel/Fairy
-                - Mythical Pokemon
-        - Woober - Beta Wooper
-            - Water/Ground
-    - https://tcrf.net/Prerelease:Pok%C3%A9mon_Gold_and_Silver/Sprites/990613
-        - Kiromarill - Beta Azumarill
-            - Water/Fighting
-                - Evolve Marill - Level up at 18 while knowing a fighting-type move.
-        - Stingbat - Beta Gligar
-            - Dark/Flying
-                - Evolve Gligar - Razor Claw + Trade
-        - Whimsey - Beta Blissey
-            - Normal/Fairy
-                - Evolve Chansey - ???
-        - Twinz - Beta Girafarig pre-evolution
-            - Ghost/Normal
-    
-    - https://tcrf.net/Development:Pok%C3%A9mon_Diamond_and_Pearl/Sprites
-        - (UNNAMED) - Beta Gible
-            - Dragon/Bug
-                - Pseudo-Legendary
-        - (UNNAMED) - Beta Gabite
-            - Dragon/Bug
-                - Pseudo-Legendary
-        - (UNNAMED) - Beta Garchomp
-            - Dragon/Bug
-                - Pseudo-Legendary
+    - Lefneko
+        - Grass
+        - Evolves into Dandeneko
+        - Abilities - ???/???/???
+    - Dandeneko
+        - Grass
+        - Evolves into Cottoneko
+    - Cottoneko
+        - Grass
+    - Flambear
+        - Fire
+        - Evolves into Volbear
+    - Volbear
+        - Fire
+        - Evolves into Dynabear
+    - Dynabear
+        - Fire
+    - Cruz
+        - Water
+        - Evolves into Aquis
+    - Aquis
+        - Water
+        - Evolves into Aquaria
+    - Aquaria
+        - Water
+    - Blossomole
+        - Grass/Fairy
+    - Hoothoot - Skåne Regional Variant
+        - Normal/Flying
+        - Evolves into Owldurn
+    - Owldurn
+        - Normal/Flying
+    - Trifox
+        - Fire
+        - Evolves into Vulpix
+    - Tangel
+        - Grass
+        - Evolves into Tangela
+    - Tangrath
+        - Grass/Dark
+        - Evolves from Tangela
+    - Rayleep
+        - Water/Fairy
+    - Numpuff
+        - Water/Poison
+        - Evolves from Qwilfish
+    - Golpy
+        - Water
+        - Evolves into Goldeen
+    - Sunmola
+        - Water
+        - Evolves into Anchorage
+        - Evolves into Grotess
+    - Anchorage
+        - Water/Steel
+    - Grotess
+        - Water/Dark
+    - Para
+        - Bug
+        - Evolves into Paras
+    - Animon
+        - Normal/Steel
+        - Evolves from Ditto
+    - Chiks
+        - Normal
+        - Evolves into Doduo
+    - Meowsy
+        - Normal
+        - Evolves into Kantonian Meowth
+        - Evolves into Alolan Meowth
+        - Evolves into Galarian Meowth
+    - Rinring
+        - Dark/Fairy
+        - Evolves into Belloyant
+    - Belloyant
+        - Dark/Fairy
+    - Minicorn
+        - Fire
+        - Evolves into Ponyta
+    - Turbann
+        - Rock
+    - Grimey
+        - Poison
+        - Evolves into Grimer
+    - Gohng
+        - Fighting/Fairy
+        - Legendary Pokemon
+    - Puddi
+        - Fire
+        - Evolves into Growlithe
+    - Belmitt
+        - Grass/Fighting
+        - Evolves from Weepinbell
+    - Bomsoaker
+        - Fire/Water
+    - Kotora
+        - Electric
+        - Evolves into Raitora
+    - Raitora
+        - Electric
+    - Madame
+        - Normal/Flying
+        - Evolves from Kantonian Farfetch'd
+    - Kurstraw
+        - Ghost
+        - Evolves into Pangshi
+    - Pangshi
+        - Ghost
+        - Evolves into Kurstraw
+    - Plux
+        - Bug/Dark
+    - Wolfman
+        - Ice/Normal
+        - Evolves into Warwolf
+    - Warwolf
+        - Ice/Normal
+    - Porygon-C
+        - Steel
+        - Evolves from Porygon-2
+    - Dunslet
+        - Normal
+        - Evolves into Dunsparce
+    - Swievel
+        - Normal/Ice
+        - Evolves from Sneasel
+    - (UNNAMED) - Beta Celebi
+        - Steel/Fairy
+        - Mythical Pokemon
+    - Woober
+        - Water/Ground
+    - Kiromarill
+        - Water/Fighting
+        - Evolves from Marill
+    - Stingbat
+        - Dark/Flying
+        - Evolves from Gligar
+    - Whimsey
+        - Normal/Fairy
+        - Evolves from Chansey
+    - Twinz
+        - Ghost/Normal
+    - (UNNAMED) - Beta Gible
+        - Dragon/Bug
+        - Pseudo-Legendary
+    - (UNNAMED) - Beta Gabite
+        - Dragon/Bug
+        - Pseudo-Legendary
+    - (UNNAMED) - Beta Garchomp
+        - Dragon/Bug
+        - Pseudo-Legendary
     
     - Potentials
-        - Beta design for Hoothoot as a regional form
-            - To evolve into Owldurn
-            - https://tcrf.net/images/1/1e/PM2F_164.CBB.w128.png
         - Designs from Gen 3 concept art
             - https://tcrf.net/Development:Pok%C3%A9mon_Ruby_and_Sapphire/Concept_Art
         - Designs from Gen 3 scratch pad

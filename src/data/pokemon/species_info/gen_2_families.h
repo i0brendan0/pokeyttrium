@@ -4960,7 +4960,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sQwilfishTeachableLearnset,
         .eggMoveLearnset = sQwilfishEggMoveLearnset,
         .formSpeciesIdTable = sQwilfishFormSpeciesIdTable,
-        //.evolutions = EVOLUTION({EVO_ITEM, WATER_STONE, SPECIES_NUMPUFF}),
+        .evolutions = EVOLUTION({EVO_ITEM, WATER_STONE, SPECIES_NUMPUFF}),
     },
 
 #if P_HISUIAN_FORMS
