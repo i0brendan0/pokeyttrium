@@ -6775,6 +6775,15 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
+    const u32 gMonFrontPic_HoothootSkane[] = INCBIN_U32("graphics/pokemon/new-x_hoothoot_x/front.4bpp.lz");
+    const u32 gMonPalette_HoothootSkane[] = INCBIN_U32("graphics/pokemon/new-x_hoothoot_x/normal.gbapal.lz");
+    const u32 gMonBackPic_HoothootSkane[] = INCBIN_U32("graphics/pokemon/new-x_hoothoot_x/back.4bpp.lz");
+    const u32 gMonShinyPalette_HoothootSkane[] = INCBIN_U32("graphics/pokemon/new-x_hoothoot_x/shiny.gbapal.lz");
+    const u8 gMonIcon_HoothootSkane[] = INCBIN_U8("graphics/pokemon/new-x_hoothoot_x/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_HoothootSkane[] = INCBIN_U8("graphics/pokemon/new-x_hoothoot_x/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
 #if !P_GBA_STYLE_SPECIES_GFX
     const u32 gMonFrontPic_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/anim_front.4bpp.lz");
     const u32 gMonPalette_Noctowl[] = INCBIN_U32("graphics/pokemon/noctowl/normal.gbapal.lz");
@@ -26900,7 +26909,7 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u8 gMonFootprint_Grotess[] = INCBIN_U8("graphics/pokemon/new-grotess/footprint.1bpp");
 #endif //P_FOOTPRINTS
 
-    const u32 gMonFrontPic_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/front.4bpp.lz");
+    const u32 gMonFrontPic_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/anim_front.4bpp.lz");
     const u32 gMonPalette_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/normal.gbapal.lz");
     const u32 gMonBackPic_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/back.4bpp.lz");
     const u32 gMonShinyPalette_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/shiny.gbapal.lz");
@@ -26908,6 +26917,13 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if P_FOOTPRINTS
     const u8 gMonFootprint_Kotora[] = INCBIN_U8("graphics/pokemon/new-kotora/footprint.1bpp");
 #endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_Kotora[] = INCBIN_COMP("graphics/pokemon/new-kotora/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_Kotora[] = INCBIN_U32("graphics/pokemon/new-kotora/overworld_shiny.gbapal.lz");
+#endif
+#endif
 
     const u32 gMonFrontPic_Kurstraw[] = INCBIN_U32("graphics/pokemon/new-kurstraw/front.4bpp.lz");
     const u32 gMonPalette_Kurstraw[] = INCBIN_U32("graphics/pokemon/new-kurstraw/normal.gbapal.lz");

@@ -82,7 +82,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 142 : 141,
+        .expYield = 142,
         .evYield_SpAttack = 1,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -150,13 +150,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),
         .catchRate = 45,
-    #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 263,
-    #elif P_UPDATED_EXP_YIELDS >= GEN_5
-        .expYield = 236,
-    #else
-        .expYield = 208,
-    #endif
         .evYield_SpAttack = 2,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -239,7 +233,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 120,
         .types = MON_TYPES(TYPE_GRASS, TYPE_POISON),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 313 : 281,
+        .expYield = 313,
         .evYield_SpAttack = 2,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -368,7 +362,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 50,
         .types = MON_TYPES(TYPE_FIRE),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 62 : 65,
+        .expYield = 62,
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -504,13 +498,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 85,
         .types = MON_TYPES(TYPE_FIRE, TYPE_DRAGON),
         .catchRate = 45,
-    #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 267,
-    #elif P_UPDATED_EXP_YIELDS >= GEN_5
-        .expYield = 240,
-    #else
-        .expYield = 209,
-    #endif
         .evYield_SpAttack = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -578,7 +566,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 85,
         .types = MON_TYPES(TYPE_FIRE, TYPE_DRAGON),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 317 : 285,
+        .expYield = 317,
         .evYield_SpAttack = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -644,7 +632,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_FIRE, TYPE_FLYING),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 317 : 285,
+        .expYield = 317,
         .evYield_SpAttack = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -772,7 +760,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 64,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 63 : 66,
+        .expYield = 63,
         .evYield_Defense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -841,7 +829,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 142 : 143,
+        .expYield = 142,
         .evYield_Defense = 1,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
@@ -909,13 +897,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 105,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
-    #if P_UPDATED_EXP_YIELDS >= GEN_8
         .expYield = 265,
-    #elif P_UPDATED_EXP_YIELDS >= GEN_5
-        .expYield = 239,
-    #else
-        .expYield = 210,
-    #endif
         .evYield_SpDefense = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -986,7 +968,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 115,
         .types = MON_TYPES(TYPE_WATER),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 315 : 284,
+        .expYield = 315,
         .evYield_SpDefense = 3,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 20,
@@ -1114,7 +1096,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 20,
         .types = MON_TYPES(TYPE_BUG),
         .catchRate = 255,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 39 : 53,
+        .expYield = 39,
         .evYield_HP = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
@@ -1244,27 +1226,17 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .evolutions = EVOLUTION({EVO_LEVEL, 10, SPECIES_BUTTERFREE}),
     },
 
-#if P_UPDATED_EXP_YIELDS >= GEN_8
-    #define BUTTERFREE_EXP_YIELD 198
-#elif P_UPDATED_EXP_YIELDS >= GEN_7
-    #define BUTTERFREE_EXP_YIELD 178
-#elif P_UPDATED_EXP_YIELDS >= GEN_5
-    #define BUTTERFREE_EXP_YIELD 173
-#else
-    #define BUTTERFREE_EXP_YIELD 160
-#endif
-
     [SPECIES_BUTTERFREE] =
     {
         .baseHP        = 60,
         .baseAttack    = 45,
         .baseDefense   = 50,
         .baseSpeed     = 70,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_6 ? 90 : 80,
+        .baseSpAttack  = 90,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
         .catchRate = 45,
-        .expYield = BUTTERFREE_EXP_YIELD,
+        .expYield = 198,
         .evYield_SpAttack = 2,
         .evYield_SpDefense = 1,
         .itemRare = ITEM_SILVER_POWDER,
@@ -1355,11 +1327,11 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 45,
         .baseDefense   = 50,
         .baseSpeed     = 70,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_6 ? 90 : 80,
+        .baseSpAttack  = 90,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_BUG, TYPE_FLYING),
         .catchRate = 45,
-        .expYield = BUTTERFREE_EXP_YIELD,
+        .expYield = 198,
         .evYield_SpAttack = 2,
         .evYield_SpDefense = 1,
         .itemRare = ITEM_SILVER_POWDER,
@@ -1421,7 +1393,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 20,
         .types = MON_TYPES(TYPE_BUG, TYPE_POISON),
         .catchRate = 255,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 39 : 52,
+        .expYield = 39,
         .evYield_Speed = 1,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
@@ -1494,7 +1466,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpDefense = 25,
         .types = MON_TYPES(TYPE_BUG, TYPE_POISON),
         .catchRate = 120,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 72 : 71,
+        .expYield = 72,
         .evYield_Defense = 2,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,

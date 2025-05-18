@@ -929,12 +929,11 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
             gOverworldPalette_Hoothoot,
             gShinyOverworldPalette_Hoothoot
         )
+        .isJohtoForm = TRUE,
         .levelUpLearnset = sHoothootLevelUpLearnset,
         .teachableLearnset = sHoothootTeachableLearnset,
         .eggMoveLearnset = sHoothootEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_NOCTOWL}),
-                                //{EVO_LEVEL_SILCOON, 20, SPECIES_NOCTOWL},
-                                //{EVO_LEVEL_CASCOON, 20, SPECIES_OWLDURN}),
     },
 
     [SPECIES_NOCTOWL] =
@@ -4960,7 +4959,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sQwilfishTeachableLearnset,
         .eggMoveLearnset = sQwilfishEggMoveLearnset,
         .formSpeciesIdTable = sQwilfishFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_ITEM, WATER_STONE, SPECIES_NUMPUFF}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_WATER_STONE, SPECIES_NUMPUFF}),
     },
 
 #if P_HISUIAN_FORMS

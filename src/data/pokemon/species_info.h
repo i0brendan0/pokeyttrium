@@ -681,16 +681,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Blossomole,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Blossomole,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Blossomole, //
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Blossomole,
-        .shinyPaletteFemale = gMonShinyPalette_Blossomole,
-        .iconSpriteFemale = gMonIcon_Blossomole,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Blossomole,
         .shinyPalette = gMonShinyPalette_Blossomole,
@@ -743,16 +733,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Bomsoaker,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Bomsoaker,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Bomsoaker,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Bomsoaker,
-        .shinyPaletteFemale = gMonShinyPalette_Bomsoaker,
-        .iconSpriteFemale = gMonIcon_Bomsoaker,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Bomsoaker,
         .shinyPalette = gMonShinyPalette_Bomsoaker,
@@ -805,16 +785,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Chiks,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Chiks,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Chiks,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Chiks,
-        .shinyPaletteFemale = gMonShinyPalette_Chiks,
-        .iconSpriteFemale = gMonIcon_Chiks,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Chiks,
         .shinyPalette = gMonShinyPalette_Chiks,
@@ -974,16 +944,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Dandeneko,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Dandeneko,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Dandeneko,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Dandeneko,
-        .shinyPaletteFemale = gMonShinyPalette_Dandeneko,
-        .iconSpriteFemale = gMonIcon_Dandeneko,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Dandeneko,
         .shinyPalette = gMonShinyPalette_Dandeneko,
@@ -1114,7 +1074,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .expYield = 67, //
         .evYield_Attack = 1,
         .evYield_Speed = 2,
-        .genderRatio = PERCENT_FEMALE(50), //
+        .genderRatio = MON_MALE,
         .eggCycles = 20, //
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
@@ -1144,16 +1104,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Gohng,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Gohng,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Gohng,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Gohng,
-        .shinyPaletteFemale = gMonShinyPalette_Gohng,
-        .iconSpriteFemale = gMonIcon_Gohng,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Gohng,
         .shinyPalette = gMonShinyPalette_Gohng,
@@ -1209,16 +1159,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Golpy,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Golpy,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Golpy,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Golpy,
-        .shinyPaletteFemale = gMonShinyPalette_Golpy,
-        .iconSpriteFemale = gMonIcon_Golpy,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Golpy,
         .shinyPalette = gMonShinyPalette_Golpy,
@@ -1273,16 +1213,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Grimey,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Grimey,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Grimey,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Grimey,
-        .shinyPaletteFemale = gMonShinyPalette_Grimey,
-        .iconSpriteFemale = gMonIcon_Grimey,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Grimey,
         .shinyPalette = gMonShinyPalette_Grimey,
@@ -1384,8 +1314,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .frontPic = gMonFrontPic_Kotora,
         .frontPicSize = MON_COORDS_SIZE(64, 64), //
         .frontPicYOffset = 0, //
-        .frontAnimFrames = sAnims_SingleFramePlaceHolder, //
-        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE, //
         .backPic = gMonBackPic_Kotora,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
@@ -1394,7 +1322,22 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .shinyPalette = gMonShinyPalette_Kotora,
         .iconSprite = gMonIcon_Kotora,
         .iconPalIndex = 0,
+        .frontAnimFrames = ANIM_FRAMES( //
+            ANIMCMD_FRAME(0, 30),
+            ANIMCMD_FRAME(1, 30),
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_V_JUMPS_H_JUMPS, //
         FOOTPRINT(Kotora)
+        OVERWORLD(
+            sPicTable_Kotora,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Kotora,
+            gShinyOverworldPalette_Kotora
+        )
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_RAITORA}),
@@ -1497,16 +1440,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Lefneko,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES 
-        .frontPicFemale = gMonFrontPic_Lefneko,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Lefneko,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Lefneko,
-        .shinyPaletteFemale = gMonShinyPalette_Lefneko,
-        .iconSpriteFemale = gMonIcon_Lefneko,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Lefneko,
         .shinyPalette = gMonShinyPalette_Lefneko,
@@ -1670,16 +1603,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Minicorn,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Minicorn,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Minicorn,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Minicorn,
-        .shinyPaletteFemale = gMonShinyPalette_Minicorn,
-        .iconSpriteFemale = gMonIcon_Minicorn,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Minicorn,
         .shinyPalette = gMonShinyPalette_Minicorn,
@@ -1896,16 +1819,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Para,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Para,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Para,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Para,
-        .shinyPaletteFemale = gMonShinyPalette_Para,
-        .iconSpriteFemale = gMonIcon_Para,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Para,
         .shinyPalette = gMonShinyPalette_Para,
@@ -2496,16 +2409,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Trifox,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Trifox,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Trifox,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Trifox,
-        .shinyPaletteFemale = gMonShinyPalette_Trifox,
-        .iconSpriteFemale = gMonIcon_Trifox,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Trifox,
         .shinyPalette = gMonShinyPalette_Trifox,
@@ -2561,16 +2464,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Turbann,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Turbann,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Turbann,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_Turbann,
-        .shinyPaletteFemale = gMonShinyPalette_Turbann,
-        .iconSpriteFemale = gMonIcon_Turbann,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Turbann,
         .shinyPalette = gMonShinyPalette_Turbann,
@@ -2783,16 +2676,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_Whimsey,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_Whimsey,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_Whimsey,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64),//
-        .paletteFemale = gMonPalette_Whimsey,
-        .shinyPaletteFemale = gMonShinyPalette_Whimsey,
-        .iconSpriteFemale = gMonIcon_Whimsey,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_Whimsey,
         .shinyPalette = gMonShinyPalette_Whimsey,
@@ -2898,16 +2781,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_x_Azumarill_x,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_x_Azumarill_x,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_x_Azumarill_x,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_x_Azumarill_x,
-        .shinyPaletteFemale = gMonShinyPalette_x_Azumarill_x,
-        .iconSpriteFemale = gMonIcon_x_Azumarill_x,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_x_Azumarill_x,
         .shinyPalette = gMonShinyPalette_x_Azumarill_x,
@@ -2935,7 +2808,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP, //
         .growthRate = GROWTH_MEDIUM_FAST, //
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
-        .abilities = { ABILITY_IRON_BARBS, ABILITY_IRON_BARBS, ABILIT_SERENE_GRACE },
+        .abilities = { ABILITY_IRON_BARBS, ABILITY_IRON_BARBS, ABILITY_SERENE_GRACE },
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("CelebiX"), // x_MODIFY_x
         .cryId = CRY_NONE, //
@@ -2960,16 +2833,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_x_Celebi_x,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_x_Celebi_x,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_x_Celebi_x,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_x_Celebi_x,
-        .shinyPaletteFemale = gMonShinyPalette_x_Celebi_x,
-        .iconSpriteFemale = gMonIcon_x_Celebi_x,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_x_Celebi_x,
         .shinyPalette = gMonShinyPalette_x_Celebi_x,
@@ -3024,16 +2887,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_x_Dunsparce_x,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_x_Dunsparce_x,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_x_Dunsparce_x,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_x_Dunsparce_x,
-        .shinyPaletteFemale = gMonShinyPalette_x_Dunsparce_x,
-        .iconSpriteFemale = gMonIcon_x_Dunsparce_x,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_x_Dunsparce_x,
         .shinyPalette = gMonShinyPalette_x_Dunsparce_x,
@@ -3087,16 +2940,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_x_Gligar_x,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_x_Gligar_x,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_x_Gligar_x,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_x_Gligar_x,
-        .shinyPaletteFemale = gMonShinyPalette_x_Gligar_x,
-        .iconSpriteFemale = gMonIcon_x_Gligar_x,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_x_Gligar_x,
         .shinyPalette = gMonShinyPalette_x_Gligar_x,
@@ -3153,16 +2996,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .backPic = gMonBackPic_x_Wooper_x,
         .backPicSize = MON_COORDS_SIZE(64, 64), //
         .backPicYOffset = 7, //
-#if P_GENDER_DIFFERENCES
-        .frontPicFemale = gMonFrontPic_x_Wooper_x,
-        .frontPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .backPicFemale = gMonBackPic_x_Wooper_x,
-        .backPicSizeFemale = MON_COORDS_SIZE(64, 64), //
-        .paletteFemale = gMonPalette_x_Wooper_x,
-        .shinyPaletteFemale = gMonShinyPalette_x_Wooper_x,
-        .iconSpriteFemale = gMonIcon_x_Wooper_x,
-        .iconPalIndexFemale = 1, //
-#endif //P_GENDER_DIFFERENCES
         .backAnimId = BACK_ANIM_NONE, //
         .palette = gMonPalette_x_Wooper_x,
         .shinyPalette = gMonShinyPalette_x_Wooper_x,
@@ -3337,6 +3170,59 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .levelUpLearnset = sNoneLevelUpLearnset, //
         .teachableLearnset = sNoneTeachableLearnset, //
     },
-    // hoothoot uses palette 2
+    
+    [SPECIES_HOOTHOOT_SKANE] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 36,
+        .baseDefense   = 56,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 30,
+        .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
+        .catchRate = 255,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 52 : 58,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 15,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
+        .abilities = { ABILITY_SNIPER, ABILITY_BIG_PECKS, ABILITY_TINTED_LENS },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Hoothoot"),
+        .cryId = CRY_HOOTHOOT,
+        .natDexNum = NATIONAL_DEX_HOOTHOOT,
+        .categoryName = _("Owl"),
+        .height = 7, //
+        .weight = 212, //
+        .description = COMPOUND_STRING( //
+            "This is a newly discovered Pokémon.\n"
+            "It is currently under investigation.\n"
+            "No detailed information is available\n"
+            "at this time."),
+        .pokemonScale = 256, //
+        .pokemonOffset = 0, //
+        .trainerScale = 256, //
+        .trainerOffset = 0, //
+        .frontPic = gMonFrontPic_HoothootSkane,
+        .frontPicSize = MON_COORDS_SIZE(64, 64), //
+        .frontPicYOffset = 0, //
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_HoothootSkane,
+        .backPicSize = MON_COORDS_SIZE(64, 64), //
+        .backPicYOffset = 7, //
+        .backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_HoothootSkane,
+        .shinyPalette = gMonShinyPalette_HoothootSkane,
+        .iconSprite = gMonIcon_HoothootSkane,
+        .iconPalIndex = 2,
+        FOOTPRINT(HoothootSkane)
+        .levelUpLearnset = sNoneLevelUpLearnset,
+        .teachableLearnset = sNoneTeachableLearnset,
+        .formSpeciesIdTable = sHoothootFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_OWLDURN}),
+    },
 
 };
