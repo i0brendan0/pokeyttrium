@@ -26,6 +26,7 @@ Route3_EventScript_Ghost::
 Route3_EventScript_MoveGhostLeft::
     lockall
     applymovement LOCALID_GHOST_OUTSIDE, Route3_Movement_GhostLeft
+    waitmovement 0
     setvar VAR_TEMP_0, 2
     releaseall
     end
@@ -39,6 +40,7 @@ Route3_Movement_GhostLeft::
 Route3_EventScript_MoveGhostRight::
     lockall
     applymovement LOCALID_GHOST_OUTSIDE, Route3_Movement_GhostRight
+    waitmovement 0
     setvar VAR_TEMP_0, 1
     releaseall
     end
