@@ -9,6 +9,8 @@
     individuals who are set on changing the status quo. (Story Not Implemented)
     
     DUE TO LUCY'S SPRITE DATA NOT BEING IMPLEMENTED, IT IS NOT CURRENTLY POSSIBLE TO PLAY AS LUCY.
+    
+    The region has no Pokemon Professor, but you'll meet a friendly face to start off your journey.
 
 ## Features
 
@@ -346,12 +348,19 @@ Use x_MODIFY_x to find changes for future.
 ### [List of pokeemerald Expansion contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)
 
 mudskipper for region map code.
+
 kwenio for Noland back and overworld sprites.
+
 PurrfectDoodle for Kotora sprites.
+
 Oomer for Puddi icon and footprint.
+
 Oomer for Kotora footprint.
+
 TibJib for various [Beta Gen 2 revamps](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/tree/main/Pokemon/Beta%20Revamps/TibJib).
+
     Extra credits included in link
+
 aethestode for other [Beta Gen 2 sprites](https://www.deviantart.com/aethestode/art/Spaceworld-Demo-Beta-Pokemon-Sprites-Revamped-856667682).
 
 ### Interested in helping? [Check here](info/TODO.md)
