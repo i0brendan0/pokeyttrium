@@ -14,6 +14,18 @@
 
 #define TREASURE_FACTOR ((I_SELL_VALUE_FRACTION >= GEN_9) ? 2 : 1)
 
+#define OLD_TM_DATA                                   \
+    {                                                 \
+        .name = _("????????"),                        \
+        .price = 0,                                   \
+        .description = sQuestionMarksDesc,            \
+        .pocket = POCKET_ITEMS,                       \
+        .type = ITEM_USE_BAG_MENU,                    \
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse, \
+        .iconPic = gItemIcon_QuestionMark,            \
+        .iconPalette = gItemIconPalette_QuestionMark, \
+    }
+
 // Shared Item Description entries
 
 static const u8 sFullHealDesc[]       = _("Heals all the\n"
@@ -15868,4 +15880,98 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PowerGlove,
         .iconPalette = gItemIconPalette_PowerGlove,
     },
+    
+    [ITEM_OLD_TM09] = OLD_TM_DATA,
+    [ITEM_OLD_TM10] = OLD_TM_DATA,
+    [ITEM_OLD_TM11] = OLD_TM_DATA,
+    [ITEM_OLD_TM12] = OLD_TM_DATA,
+    [ITEM_OLD_TM13] = OLD_TM_DATA,
+    [ITEM_OLD_TM14] = OLD_TM_DATA,
+    [ITEM_OLD_TM15] = OLD_TM_DATA,
+    [ITEM_OLD_TM16] = OLD_TM_DATA,
+    [ITEM_OLD_TM17] = OLD_TM_DATA,
+    [ITEM_OLD_TM18] = OLD_TM_DATA,
+    [ITEM_OLD_TM19] = OLD_TM_DATA,
+    [ITEM_OLD_TM20] = OLD_TM_DATA,
+    [ITEM_OLD_TM21] = OLD_TM_DATA,
+    [ITEM_OLD_TM22] = OLD_TM_DATA,
+    [ITEM_OLD_TM23] = OLD_TM_DATA,
+    [ITEM_OLD_TM24] = OLD_TM_DATA,
+    [ITEM_OLD_TM25] = OLD_TM_DATA,
+    [ITEM_OLD_TM26] = OLD_TM_DATA,
+    [ITEM_OLD_TM27] = OLD_TM_DATA,
+    [ITEM_OLD_TM28] = OLD_TM_DATA,
+    [ITEM_OLD_TM29] = OLD_TM_DATA,
+    [ITEM_OLD_TM30] = OLD_TM_DATA,
+    [ITEM_OLD_TM31] = OLD_TM_DATA,
+    [ITEM_OLD_TM32] = OLD_TM_DATA,
+    [ITEM_OLD_TM33] = OLD_TM_DATA,
+    [ITEM_OLD_TM34] = OLD_TM_DATA,
+    [ITEM_OLD_TM35] = OLD_TM_DATA,
+    [ITEM_OLD_TM36] = OLD_TM_DATA,
+    [ITEM_OLD_TM37] = OLD_TM_DATA,
+    [ITEM_OLD_TM38] = OLD_TM_DATA,
+    [ITEM_OLD_TM39] = OLD_TM_DATA,
+    [ITEM_OLD_TM40] = OLD_TM_DATA,
+    [ITEM_OLD_TM41] = OLD_TM_DATA,
+    [ITEM_OLD_TM42] = OLD_TM_DATA,
+    [ITEM_OLD_TM43] = OLD_TM_DATA,
+    [ITEM_OLD_TM44] = OLD_TM_DATA,
+    [ITEM_OLD_TM45] = OLD_TM_DATA,
+    [ITEM_OLD_TM46] = OLD_TM_DATA,
+    [ITEM_OLD_TM47] = OLD_TM_DATA,
+    [ITEM_OLD_TM48] = OLD_TM_DATA,
+    [ITEM_OLD_TM49] = OLD_TM_DATA,
+    [ITEM_OLD_TM50] = OLD_TM_DATA,
+    [ITEM_OLD_TM51] = OLD_TM_DATA,
+    [ITEM_OLD_TM52] = OLD_TM_DATA,
+    [ITEM_OLD_TM53] = OLD_TM_DATA,
+    [ITEM_OLD_TM54] = OLD_TM_DATA,
+    [ITEM_OLD_TM55] = OLD_TM_DATA,
+    [ITEM_OLD_TM56] = OLD_TM_DATA,
+    [ITEM_OLD_TM57] = OLD_TM_DATA,
+    [ITEM_OLD_TM58] = OLD_TM_DATA,
+    [ITEM_OLD_TM59] = OLD_TM_DATA,
+    [ITEM_OLD_TM60] = OLD_TM_DATA,
+    [ITEM_OLD_TM61] = OLD_TM_DATA,
+    [ITEM_OLD_TM62] = OLD_TM_DATA,
+    [ITEM_OLD_TM63] = OLD_TM_DATA,
+    [ITEM_OLD_TM64] = OLD_TM_DATA,
+    [ITEM_OLD_TM65] = OLD_TM_DATA,
+    [ITEM_OLD_TM66] = OLD_TM_DATA,
+    [ITEM_OLD_TM67] = OLD_TM_DATA,
+    [ITEM_OLD_TM68] = OLD_TM_DATA,
+    [ITEM_OLD_TM69] = OLD_TM_DATA,
+    [ITEM_OLD_TM70] = OLD_TM_DATA,
+    [ITEM_OLD_TM71] = OLD_TM_DATA,
+    [ITEM_OLD_TM72] = OLD_TM_DATA,
+    [ITEM_OLD_TM73] = OLD_TM_DATA,
+    [ITEM_OLD_TM74] = OLD_TM_DATA,
+    [ITEM_OLD_TM75] = OLD_TM_DATA,
+    [ITEM_OLD_TM76] = OLD_TM_DATA,
+    [ITEM_OLD_TM77] = OLD_TM_DATA,
+    [ITEM_OLD_TM78] = OLD_TM_DATA,
+    [ITEM_OLD_TM79] = OLD_TM_DATA,
+    [ITEM_OLD_TM80] = OLD_TM_DATA,
+    [ITEM_OLD_TM81] = OLD_TM_DATA,
+    [ITEM_OLD_TM82] = OLD_TM_DATA,
+    [ITEM_OLD_TM83] = OLD_TM_DATA,
+    [ITEM_OLD_TM84] = OLD_TM_DATA,
+    [ITEM_OLD_TM85] = OLD_TM_DATA,
+    [ITEM_OLD_TM86] = OLD_TM_DATA,
+    [ITEM_OLD_TM87] = OLD_TM_DATA,
+    [ITEM_OLD_TM88] = OLD_TM_DATA,
+    [ITEM_OLD_TM89] = OLD_TM_DATA,
+    [ITEM_OLD_TM90] = OLD_TM_DATA,
+    [ITEM_OLD_TM91] = OLD_TM_DATA,
+    [ITEM_OLD_TM92] = OLD_TM_DATA,
+    [ITEM_OLD_TM93] = OLD_TM_DATA,
+    [ITEM_OLD_TM94] = OLD_TM_DATA,
+    [ITEM_OLD_TM95] = OLD_TM_DATA,
+    [ITEM_OLD_TM96] = OLD_TM_DATA,
+    [ITEM_OLD_TM97] = OLD_TM_DATA,
+    [ITEM_OLD_TM98] = OLD_TM_DATA,
+    [ITEM_OLD_TM99] = OLD_TM_DATA,
+    [ITEM_OLD_TM100] = OLD_TM_DATA,
+
 };
