@@ -86,6 +86,7 @@
           post-game locations.
     - 18 trainers are scattered throughout the region, one for each type. Defeating them will give
       a bonus to damage done by their type.
+        - Will also give out a TM of their type.
     - Trainers may give out items after being beaten in a rematch.
     - New Moves
         - Parasomnia
@@ -107,6 +108,10 @@
             - Kurstraw and Panghshi's signature ability
             - If dealt damage by a contact move, there's a chance they will curse the attacker.
             - Only triggers once unless they switch out.
+        - UNNAMED
+            - Twinz's signature ability
+            - Mega Kangaskhan's ability repurposed
+            - Moves hit twice
     - Talking to a specific NPC will allow you to keep a Pokemon from evolving.
         - Only stops evolutions that involve leveling up.
         - Talking to them again will re-enable evolution.
@@ -340,11 +345,13 @@ Use x_MODIFY_x to find changes for future.
 
 ### [List of pokeemerald Expansion contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits)
 
-    - mudskipper for region map code.
-    - kwenio for Noland back and overworld sprites.
-    - PurrfectDoodle for Kotora sprites.
-    - Oomer for Puddi icon and footprint.
-    - Oomer for Kotora footprint.
-    - TibJib for various [Beta Gen 2 revamps](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/tree/main/Pokemon/Beta%20Revamps/TibJib).
-        - Extra credits included in link
-    - aethestode for other [Beta Gen 2 sprites](https://www.deviantart.com/aethestode/art/Spaceworld-Demo-Beta-Pokemon-Sprites-Revamped-856667682).
+mudskipper for region map code.
+kwenio for Noland back and overworld sprites.
+PurrfectDoodle for Kotora sprites.
+Oomer for Puddi icon and footprint.
+Oomer for Kotora footprint.
+TibJib for various [Beta Gen 2 revamps](https://github.com/Pawkkie/Team-Aquas-Asset-Repo/tree/main/Pokemon/Beta%20Revamps/TibJib).
+    Extra credits included in link
+aethestode for other [Beta Gen 2 sprites](https://www.deviantart.com/aethestode/art/Spaceworld-Demo-Beta-Pokemon-Sprites-Revamped-856667682).
+
+### Interested in helping? [Check here](info/TODO.md)

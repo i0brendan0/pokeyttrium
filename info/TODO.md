@@ -196,6 +196,13 @@ If you are checking out this repo and would like to contribute to any of these, 
         - Volbear
         - Warwolf
 
+### Graphics
+
+    - Lucy back and overworld sprites
+    - New incense sprites
+    - Title screen version name
+    - Title screen background graphics
+
 ### Features
 
 ### Misc
