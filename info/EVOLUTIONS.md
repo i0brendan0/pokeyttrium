@@ -135,3 +135,6 @@
 
 - [ Beta Gabite ]
     - Evolves into Beta Garchomp ???
+
+- Meltan
+    - Evolves into Melmetal with high friendship
