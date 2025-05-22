@@ -74,7 +74,19 @@
         - Rhydon - Protector - Head Smash
         - Duskull - Reaper Cloth - Ominous Wind
         - Feebas - Prism Scale - Aqua Jet
-        - Check Gen 5-8 Pokemon
+        - Spritzee - Sachet - Aromatic Mist
+        - Swirlix - Whipped Dream - Sweet Kiss
+        - Applin - Tart Apple - Grav Apple
+        - Applin - Sweet Apple - Apple Acid
+        - Galarian Slowpoke - Galarica Cuff - Shell Side Arm
+        - Galarian Slowpoke - Galarica Wreath - Eerie Spell
+        - Onix - Metal Coat - Iron Defense
+        - Poliwag - King's Rock - Fake Out
+        - Slowpoke - King's Rock - Fake Out
+        - Porygon - Upgrade - Tri-Attack
+        - Porygon - Dubious Disc - Hyper Beam
+        - Scyther - Metal Coat - Bullet Punch
+        - Seadra - Dragon Scale - Scale Shot
     - New low-hp type abilities.
     - A baby egg lotto will be available. Basically an updated Odd Egg.
         - All baby Pokemon will be available in the egg, including a special bonus that has a 2%
@@ -220,9 +232,9 @@
     - New incense items for use with beta baby mon.
         - Luck Incense - Meowsy
         - Flame Incense - Trifox/Minicorn/Puddi
-            - . (Charcoal)
+            - Same effect as Charcoal
         - Grime Incense - Grimey
-            - . (Poison Barb)
+            - Same effect as Poison Barb
         - Grass Incense - Tangel/Para
         - Sea Incense - Golpy
         - Full Incense - Dunslet
@@ -247,7 +259,6 @@
     - Maybe modify how badly poisoned works.
     - Redo Pickup Table again. src/battle_script_commands.c
     - Add in placeholder overworld data for new Pokemon.
-    - Check gen 5-8 Pokemon to give new abilities.
     - Pokeemerald Tutorials
         - One-time Shops https://www.pokecommunity.com/showpost.php?p=10133566&postcount=55
         - Earn BP https://www.pokecommunity.com/threads/simple-modifications-directory.416647/page-16#post-10422051
