@@ -1205,6 +1205,8 @@ STATIC_ASSERT(MAX_DYNAMAX_LEVEL < (1 << 4), PokemonSubstruct3_dynamaxLevel_TooSm
 STATIC_ASSERT(MAX_PER_STAT_IVS < (1 << 5), PokemonSubstruct3_ivs_TooSmall);
 STATIC_ASSERT(NUM_NATURES <= (1 << 5), BoxPokemon_hiddenNatureModifier_TooSmall);
 
+STATIC_ASSERT(HOENN_DEX_x_WOOPER_x < 402, RegionalPokedexTooLarge);
+
 static u32 CompressStatus(u32 status)
 {
     s32 i;
