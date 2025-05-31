@@ -256,7 +256,6 @@
     - Modify TM prices
     - Remove a lot of Generation configurations.
     - EV training items give EVs when walking.
-    - Maybe modify how badly poisoned works.
     - Redo Pickup Table again. src/battle_script_commands.c
     - Add in placeholder overworld data for new Pokemon.
     - Pokeemerald Tutorials
@@ -346,6 +345,7 @@
     - Health recovery items heal as they would pre-Gen 7.
     - Incense items work for breeding as they would normally instead of having no effect.
         - New items will be added for use with Beta Mon.
+    - The Iron Ball will ignore the Flying type when calculating type effectiveness.
 
 ### Notable Bug Fixes
 
