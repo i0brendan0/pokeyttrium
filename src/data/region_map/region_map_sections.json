@@ -1,7 +1,7 @@
 {
   "map_sections": [
     {
-      "map_section": "MAPSEC_ROUTE_1",
+      "id": "MAPSEC_ROUTE_1",
       "name": "ROUTE 1",
       "x": 10,
       "y": 7,
@@ -9,7 +9,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_2",
+      "id": "MAPSEC_ROUTE_2",
       "name": "ROUTE 2",
       "x": 10,
       "y": 4,
@@ -17,7 +17,7 @@
       "height": 3
     },
     {
-      "map_section": "MAPSEC_ROUTE_3",
+      "id": "MAPSEC_ROUTE_3",
       "name": "ROUTE 3",
       "x": 11,
       "y": 4,
@@ -25,7 +25,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_4",
+      "id": "MAPSEC_ROUTE_4",
       "name": "ROUTE 4",
       "x": 13,
       "y": 2,
@@ -33,7 +33,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_5",
+      "id": "MAPSEC_ROUTE_5",
       "name": "ROUTE 5",
       "x": 14,
       "y": 2,
@@ -41,7 +41,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_6",
+      "id": "MAPSEC_ROUTE_6",
       "name": "ROUTE 6",
       "x": 17,
       "y": 2,
@@ -49,7 +49,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_7",
+      "id": "MAPSEC_ROUTE_7",
       "name": "ROUTE 7",
       "x": 20,
       "y": 2,
@@ -57,7 +57,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_8",
+      "id": "MAPSEC_ROUTE_8",
       "name": "ROUTE 8",
       "x": 21,
       "y": 3,
@@ -65,7 +65,7 @@
       "height": 4
     },
     {
-      "map_section": "MAPSEC_ROUTE_9",
+      "id": "MAPSEC_ROUTE_9",
       "name": "ROUTE 9",
       "x": 21,
       "y": 7,
@@ -73,7 +73,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_10",
+      "id": "MAPSEC_ROUTE_10",
       "name": "ROUTE 10",
       "x": 18,
       "y": 9,
@@ -81,7 +81,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_11",
+      "id": "MAPSEC_ROUTE_11",
       "name": "ROUTE 11",
       "x": 15,
       "y": 9,
@@ -89,7 +89,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_12",
+      "id": "MAPSEC_ROUTE_12",
       "name": "ROUTE 12",
       "x": 15,
       "y": 10,
@@ -97,7 +97,7 @@
       "height": 3
     },
     {
-      "map_section": "MAPSEC_ROUTE_13",
+      "id": "MAPSEC_ROUTE_13",
       "name": "ROUTE 13",
       "x": 15,
       "y": 13,
@@ -105,7 +105,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_14",
+      "id": "MAPSEC_ROUTE_14",
       "name": "ROUTE 14",
       "x": 12,
       "y": 8,
@@ -113,7 +113,7 @@
       "height": 3
     },
     {
-      "map_section": "MAPSEC_ROUTE_15",
+      "id": "MAPSEC_ROUTE_15",
       "name": "ROUTE 15",
       "x": 11,
       "y": 9,
@@ -121,7 +121,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_16",
+      "id": "MAPSEC_ROUTE_16",
       "name": "ROUTE 16",
       "x": 9,
       "y": 9,
@@ -129,7 +129,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_17",
+      "id": "MAPSEC_ROUTE_17",
       "name": "ROUTE 17",
       "x": 5,
       "y": 9,
@@ -137,7 +137,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_18",
+      "id": "MAPSEC_ROUTE_18",
       "name": "ROUTE 18",
       "x": 3,
       "y": 9,
@@ -145,7 +145,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_19",
+      "id": "MAPSEC_ROUTE_19",
       "name": "ROUTE 19",
       "x": 2,
       "y": 7,
@@ -153,7 +153,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_20",
+      "id": "MAPSEC_ROUTE_20",
       "name": "ROUTE 20",
       "x": 3,
       "y": 6,
@@ -161,7 +161,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_21",
+      "id": "MAPSEC_ROUTE_21",
       "name": "ROUTE 21",
       "x": 7,
       "y": 4,
@@ -169,7 +169,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_22",
+      "id": "MAPSEC_ROUTE_22",
       "name": "ROUTE 22",
       "x": 7,
       "y": 2,
@@ -177,7 +177,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_ROUTE_23",
+      "id": "MAPSEC_ROUTE_23",
       "name": "ROUTE 23",
       "x": 6,
       "y": 1,
@@ -185,7 +185,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_24",
+      "id": "MAPSEC_ROUTE_24",
       "name": "ROUTE 24",
       "x": 8,
       "y": 1,
@@ -193,7 +193,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_25",
+      "id": "MAPSEC_ROUTE_25",
       "name": "ROUTE 25",
       "x": 11,
       "y": 1,
@@ -201,7 +201,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_BATTLE_FRONTIER",
+      "id": "MAPSEC_BATTLE_FRONTIER",
       "name": "BATTLE FRONTIER",
       "x": 7,
       "y": 12,
@@ -209,7 +209,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SANDY_BEACH",
+      "id": "MAPSEC_SANDY_BEACH",
       "name": "SANDY BEACH",
       "x": 2,
       "y": 10,
@@ -217,7 +217,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FROZEN_BEACH",
+      "id": "MAPSEC_FROZEN_BEACH",
       "name": "FROZEN BEACH",
       "x": 13,
       "y": 0,
@@ -225,7 +225,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_RIVER_TEMPLE",
+      "id": "MAPSEC_RIVER_TEMPLE",
       "name": "RIVER TEMPLE",
       "x": 13,
       "y": 9,
@@ -233,7 +233,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_DESERT_TEMPLE",
+      "id": "MAPSEC_DESERT_TEMPLE",
       "name": "DESERT TEMPLE",
       "x": 6,
       "y": 9,
@@ -241,7 +241,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_HAUNTED_HOUSE",
+      "id": "MAPSEC_HAUNTED_HOUSE",
       "name": "HAUNTED HOUSE",
       "x": 15,
       "y": 4,
@@ -249,7 +249,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FOREST_2",
+      "id": "MAPSEC_FOREST_2",
       "name": "SOUTHERN FOREST",
       "x": 15,
       "y": 11,
@@ -257,7 +257,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_FOREST_1",
+      "id": "MAPSEC_FOREST_1",
       "name": "NORTHERN FOREST",
       "x": 21,
       "y": 4,
@@ -265,7 +265,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_MOUNTAIN",
+      "id": "MAPSEC_MOUNTAIN",
       "name": "MOUNTAIN",
       "x": 10,
       "y": 1,
@@ -273,7 +273,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CEMETERY",
+      "id": "MAPSEC_CEMETERY",
       "name": "THREE CITY CEMETERY",
       "x": 6,
       "y": 3,
@@ -281,7 +281,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_1",
+      "id": "MAPSEC_TOWN_1",
       "name": "ONE TOWN",
       "x": 11,
       "y": 8,
@@ -289,7 +289,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_2",
+      "id": "MAPSEC_TOWN_2",
       "name": "TWO CITY",
       "x": 10,
       "y": 9,
@@ -297,7 +297,7 @@
       "height": 2
     },
     {
-      "map_section": "MAPSEC_TOWN_3",
+      "id": "MAPSEC_TOWN_3",
       "name": "THREE CITY",
       "x": 8,
       "y": 4,
@@ -305,7 +305,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_4",
+      "id": "MAPSEC_TOWN_4",
       "name": "FOUR TOWN",
       "x": 13,
       "y": 1,
@@ -313,7 +313,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_5",
+      "id": "MAPSEC_TOWN_5",
       "name": "FIVE TOWN",
       "x": 19,
       "y": 1,
@@ -321,7 +321,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_6",
+      "id": "MAPSEC_TOWN_6",
       "name": "SIX TOWN",
       "x": 22,
       "y": 2,
@@ -329,7 +329,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_7",
+      "id": "MAPSEC_TOWN_7",
       "name": "SEVEN CITY",
       "x": 20,
       "y": 6,
@@ -337,7 +337,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_8",
+      "id": "MAPSEC_TOWN_8",
       "name": "EIGHT TOWN",
       "x": 21,
       "y": 9,
@@ -345,7 +345,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_9",
+      "id": "MAPSEC_TOWN_9",
       "name": "NINE TOWN",
       "x": 16,
       "y": 12,
@@ -353,7 +353,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_10",
+      "id": "MAPSEC_TOWN_10",
       "name": "TEN CITY",
       "x": 15,
       "y": 14,
@@ -361,7 +361,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_11",
+      "id": "MAPSEC_TOWN_11",
       "name": "ELEVEN CITY",
       "x": 2,
       "y": 9,
@@ -369,7 +369,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_12",
+      "id": "MAPSEC_TOWN_12",
       "name": "TWELVE TOWN",
       "x": 2,
       "y": 6,
@@ -377,7 +377,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_13",
+      "id": "MAPSEC_TOWN_13",
       "name": "THIRTEEN TOWN",
       "x": 6,
       "y": 6,
@@ -385,7 +385,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_14",
+      "id": "MAPSEC_TOWN_14",
       "name": "FOURTEEN TOWN",
       "x": 5,
       "y": 1,
@@ -393,7 +393,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_15",
+      "id": "MAPSEC_TOWN_15",
       "name": "FIFTEEN CITY",
       "x": 7,
       "y": 0,
@@ -401,7 +401,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TOWN_16",
+      "id": "MAPSEC_TOWN_16",
       "name": "SIXTEEN TOWN",
       "x": 26,
       "y": 2,
@@ -409,7 +409,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_VICTORY_ROAD",
+      "id": "MAPSEC_VICTORY_ROAD",
       "name": "VICTORY ROAD",
       "x": 25,
       "y": 2,
@@ -417,7 +417,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ROUTE_26",
+      "id": "MAPSEC_ROUTE_26",
       "name": "ROUTE 26",
       "x": 23,
       "y": 2,
@@ -425,7 +425,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_CAVE_1",
+      "id": "MAPSEC_CAVE_1",
       "name": "CAVE",
       "x": 17,
       "y": 2,
@@ -433,7 +433,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERWATER_FROZEN_BEACH",
+      "id": "MAPSEC_UNDERWATER_FROZEN_BEACH",
       "name": "UNDERWATER",
       "x": 13,
       "y": 0,
@@ -441,7 +441,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERWATER_SANDY_BEACH",
+      "id": "MAPSEC_UNDERWATER_SANDY_BEACH",
       "name": "UNDERWATER",
       "x": 2,
       "y": 10,
@@ -449,7 +449,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERWATER_ROUTE_14",
+      "id": "MAPSEC_UNDERWATER_ROUTE_14",
       "name": "UNDERWATER",
       "x": 12,
       "y": 8,
@@ -457,7 +457,7 @@
       "height": 3
     },
     {
-      "map_section": "MAPSEC_TWO_CITY_UNDERGROUND",
+      "id": "MAPSEC_TWO_CITY_UNDERGROUND",
       "name": "TWO CITY UNDERGROUND",
       "x": 10,
       "y": 10,
@@ -465,7 +465,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_DESERT_UNDERPASS",
+      "id": "MAPSEC_DESERT_UNDERPASS",
       "name": "DESERT PATH",
       "x": 7,
       "y": 7,
@@ -473,7 +473,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TWO_CITY_MINE",
+      "id": "MAPSEC_TWO_CITY_MINE",
       "name": "TWO CITY MINE",
       "x": 10,
       "y": 10,
@@ -481,7 +481,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_UNDERWATER_ROUTE_20",
+      "id": "MAPSEC_UNDERWATER_ROUTE_20",
       "name": "UNDERWATER",
       "x": 3,
       "y": 6,
@@ -489,7 +489,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_TRAINER_HILL",
+      "id": "MAPSEC_TRAINER_HILL",
       "name": "TRAINER HILL",
       "x": 3,
       "y": 9,
@@ -497,7 +497,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ABANDONED_SHIP",
+      "id": "MAPSEC_ABANDONED_SHIP",
       "name": "ABANDONED SHIP",
       "x": 4,
       "y": 6,
@@ -505,7 +505,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SAFARI_ZONE",
+      "id": "MAPSEC_SAFARI_ZONE",
       "name": "SAFARI ZONE",
       "x": 8,
       "y": 3,
@@ -513,7 +513,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ARTISAN_CAVE",
+      "id": "MAPSEC_ARTISAN_CAVE",
       "name": "ARTISAN CAVE",
       "x": 7,
       "y": 12,
